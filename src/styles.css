@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: 'sans';
-    src: url('/GoogleSansFlex-VariableFont.ttf');
+    src: url('GoogleSansFlex-VariableFont.ttf');
 }
 
 @font-face {
     font-family: 'Material Symbols Rounded';
-    src: url('/MaterialSymbolsRounded.ttf');
+    src: url('MaterialSymbolsRounded.ttf');
 }
 
 html {
