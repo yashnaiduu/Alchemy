@@ -1,0 +1,196 @@
+<!-- Hero Section -->
+<section class="relative overflow-hidden min-h-[85vh] flex items-center pt-10 pb-20">
+    <!-- Background Decor -->
+    <div
+        class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-primary-500/10 rounded-full blur-3xl opacity-50 animate-pulse pointer-events-none">
+    </div>
+    <div
+        class="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 bg-surface-500/10 rounded-full blur-3xl opacity-50 pointer-events-none">
+    </div>
+
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+            <div class="flex flex-col gap-6 animate-slide-up">
+                <h1
+                    class="text-4xl sm:text-5xl lg:text-6xl font-bold text-surface-900 dark:text-surface-0 leading-tight">
+                    Elevate Your <br /> <span class="text-primary">Drinking Ritual</span>
+                </h1>
+                <p class="text-lg sm:text-xl text-surface-600 dark:text-surface-400 leading-relaxed delay-100">
+                    From your home bar to the finest lounge. Explore curated recipes, manage your cabinet, and master
+                    the
+                    mixology craft.
+                </p>
+                <div class="delay-200">
+                    <p-button label="Explore Recipes" routerLink="/browse" [rounded]="true" size="large"
+                        class="w-full sm:w-auto shadow-lg hover:shadow-xl transition-shadow">
+                    </p-button>
+                </div>
+            </div>
+            <div class="relative animate-float delay-300">
+                <div (click)="updateHeroImage()" [style.backgroundImage]="'url(/imgs/' + heroImage() + ')'"
+                    class="bg-cover bg-center rounded-2xl aspect-square w-full shadow-2xl rotate-3 hover:rotate-0 transition-all duration-500 cursor-pointer">
+                </div>
+                <div
+                    class="absolute -bottom-6 -right-6 bg-surface-0 dark:bg-surface-800 p-4 rounded-xl shadow-xl hidden sm:block border border-surface-200 dark:border-surface-700 animate-slide-up delay-300">
+                    <div class="flex items-center gap-3">
+                        <div
+                            class="w-10 h-10 rounded-full bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center">
+                            <span class="material-symbols-rounded text-primary">local_bar</span>
+                        </div>
+                        <div>
+                            <div class="text-xl font-bold text-surface-900 dark:text-surface-0">100+</div>
+                            <div class="text-xs text-surface-500">Premium Recipes</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section
+    class="relative py-24 sm:py-32 bg-gradient-to-b from-transparent via-surface-50/50 to-transparent dark:via-surface-900/50">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="text-center mb-16 animate-slide-up">
+            <span class="text-sm font-bold text-primary uppercase tracking-widest">Features</span>
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-surface-900 dark:text-surface-0 mt-3 mb-6">
+                Why Use Alchemy?
+            </h2>
+            <p class="text-xl text-surface-600 dark:text-surface-400 max-w-2xl mx-auto leading-relaxed">
+                Everything you need to craft the perfect drink, from discovery to the final pour.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            @for (feature of features; track feature.icon) {
+            <a [routerLink]="feature.link"
+                class="group bg-surface-0/50 dark:bg-surface-800/30 backdrop-blur-sm rounded-3xl border border-surface-200 dark:border-surface-700 p-8 flex flex-col items-center text-center hover:border-primary-500/50 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 cursor-pointer block h-full relative overflow-hidden">
+                <!-- Hover Gradient -->
+                <div
+                    class="absolute inset-0 bg-gradient-to-b from-transparent to-primary-50/20 dark:to-primary-900/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                </div>
+
+                <div
+                    class="w-16 h-16 rounded-2xl bg-surface-0 dark:bg-surface-700 shadow-sm group-hover:scale-110 flex items-center justify-center mb-6 transition-transform duration-300 z-10">
+                    <span class="material-symbols-rounded text-4xl text-primary">{{feature.icon}}</span>
+                </div>
+                <h3 class="text-xl font-bold text-surface-900 dark:text-surface-0 mb-3 z-10">{{feature.title}}</h3>
+                <p class="text-surface-600 dark:text-surface-400 leading-relaxed z-10">{{feature.description}}</p>
+            </a>
+            }
+        </div>
+    </div>
+</section>
+
+<!-- Trending Section -->
+<section class="relative py-24 sm:py-32">
+    <!-- Connecting Decor -->
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-lg h-full opacity-30 pointer-events-none">
+        <div class="absolute top-1/4 left-0 w-64 h-64 bg-primary-500/5 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-1/4 right-0 w-64 h-64 bg-primary-500/5 rounded-full blur-3xl"></div>
+    </div>
+
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="flex flex-col sm:flex-row justify-between items-end mb-12 gap-4">
+            <div>
+                <div class="flex items-center gap-2 mb-2">
+                    <span class="material-symbols-rounded text-orange-500 filled">local_fire_department</span>
+                    <span class="text-sm font-bold text-orange-500 uppercase tracking-widest">Trending Now</span>
+                </div>
+                <h2 class="text-3xl sm:text-4xl font-bold text-surface-900 dark:text-surface-0">Popular Recipes</h2>
+            </div>
+            <a routerLink="/browse"
+                class="group flex items-center gap-2 text-surface-600 dark:text-surface-400 font-semibold hover:text-primary transition-colors cursor-pointer">
+                <span>View all recipes</span>
+                <span
+                    class="material-symbols-rounded text-xl group-hover:translate-x-1 transition-transform">arrow_forward</span>
+            </a>
+        </div>
+
+        <p-carousel [value]="trending()" [numVisible]="3" [numScroll]="1" [circular]="true" autoplayInterval="4000"
+            [responsiveOptions]="responsiveOptions" [showNavigators]="window.innerWidth > 768">
+            <ng-template let-product #item>
+                <a [routerLink]="'/browse/'+product.id" class="flex flex-col gap-4 m-3 group cursor-pointer">
+                    <div
+                        class="relative overflow-hidden rounded-2xl aspect-[4/5] shadow-md group-hover:shadow-xl transition-shadow duration-300">
+                        <div [style.backgroundImage]="'url(/imgs/' + product.img + ')'"
+                            class="bg-cover bg-center w-full h-full group-hover:scale-105 transition-transform duration-500">
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity">
+                        </div>
+                        <div class="absolute bottom-4 left-4 right-4">
+                            <span
+                                class="inline-block px-2 py-1 rounded-md bg-white/20 backdrop-blur-md border border-white/10 text-white text-xs font-medium mb-1">
+                                {{product.base | titlecase}} Base
+                            </span>
+                        </div>
+                    </div>
+                    <div>
+                        <h3
+                            class="text-xl font-bold text-surface-900 dark:text-surface-0 group-hover:text-primary transition-colors leading-tight mb-2">
+                            {{product.title}}</h3>
+                        <div class="flex items-center gap-3 text-sm text-surface-500 dark:text-surface-400">
+                            <div class="flex items-center gap-1">
+                                <span class="material-symbols-rounded text-lg">wine_bar</span>
+                                <span>{{product.glass | titlecase}}</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </ng-template>
+        </p-carousel>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="relative overflow-hidden py-24 sm:py-32">
+    <!-- Gradient Flow to Footer -->
+    <div
+        class="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-surface-50 dark:from-surface-900 to-transparent pointer-events-none">
+    </div>
+
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+        <div
+            class="inline-flex items-center justify-center p-3 rounded-2xl bg-surface-100 dark:bg-surface-800 mb-6 text-primary animate-float">
+            <span class="material-symbols-rounded text-4xl">local_bar</span>
+        </div>
+        <h2 class="text-4xl sm:text-5xl font-bold text-surface-900 dark:text-surface-0 mb-6">
+            Ready to mix your first drink?
+        </h2>
+        <p class="text-xl text-surface-600 dark:text-surface-400 mb-10 max-w-2xl mx-auto leading-relaxed">
+            Join thousands of cocktail enthusiasts. Save your favorites, manage your ingredients, and master the art.
+        </p>
+        <p-button [rounded]="true" label="Explore Recipes" icon="pi pi-compass" routerLink="/browse" size="large"
+            class="shadow-xl shadow-primary-500/20 hover:shadow-primary-500/40 transition-shadow">
+        </p-button>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-surface-50 dark:bg-surface-900 py-12">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-primary-500 text-white flex items-center justify-center">
+                    <span class="material-symbols-rounded text-2xl">local_bar</span>
+                </div>
+                <div>
+                    <span class="font-bold text-xl text-surface-900 dark:text-surface-0 block">Alchemy</span>
+                    <span class="text-xs text-surface-500">The Magic of Mixing</span>
+                </div>
+            </div>
+
+            <div class="flex gap-8 text-surface-600 dark:text-surface-400">
+                <a routerLink="/browse" class="hover:text-primary transition-colors">Recipes</a>
+                <a routerLink="/my-bar" class="hover:text-primary transition-colors">My Bar</a>
+                <a routerLink="/about" class="hover:text-primary transition-colors">About</a>
+            </div>
+
+            <p class="text-xs text-surface-400 dark:text-surface-500">
+                &copy; 2025 Alchemy
+            </p>
+        </div>
+    </div>
+</footer>

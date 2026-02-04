@@ -1,0 +1,215 @@
+@import "tailwindcss";
+@import "tailwindcss-primeui";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+@font-face {
+    font-family: 'sans';
+    src: url('/GoogleSansFlex-VariableFont.ttf');
+}
+
+@font-face {
+    font-family: 'Material Symbols Rounded';
+    src: url('/MaterialSymbolsRounded.ttf');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'sans';
+    font-size: 16px;
+    background-color: var(--p-surface-0);
+    color: var(--p-surface-900);
+    /* Darker text for better contrast */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Dark mode background override */
+.dark body {
+    background-color: var(--p-surface-950);
+    color: var(--p-surface-50);
+    /* Lighter text for better contrast */
+}
+
+/* Subtle Ambient Background */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background:
+        radial-gradient(circle at 15% 50%, color-mix(in srgb, var(--p-primary-500), transparent 96%) 0%, transparent 25%),
+        radial-gradient(circle at 85% 30%, color-mix(in srgb, var(--p-primary-500), transparent 96%) 0%, transparent 25%);
+    pointer-events: none;
+    z-index: -1;
+}
+
+/* Custom Selection */
+::selection {
+    background-color: var(--p-primary-100);
+    color: var(--p-primary-900);
+}
+
+.dark ::selection {
+    background-color: var(--p-primary-900);
+    color: var(--p-primary-100);
+}
+
+.material-symbols-rounded {
+    font-family: 'Material Symbols Rounded';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Standard visible size */
+    line-height: 1;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.filled {
+    font-variation-settings: 'FILL' 1;
+}
+
+.scrollbar-none {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+    display: none;
+}
+
+/* Custom Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.8s ease-out forwards;
+}
+
+.animate-slide-up {
+    animation: slideUp 0.8s ease-out forwards;
+}
+
+.animate-float {
+    animation: float 6s ease-in-out infinite;
+}
+
+/* Staggered delays for lists */
+.delay-100 {
+    animation-delay: 100ms;
+}
+
+.delay-200 {
+    animation-delay: 200ms;
+}
+
+.delay-300 {
+    animation-delay: 300ms;
+}
+
+/* Text Gradient Utility */
+.text-gradient {
+    background: linear-gradient(135deg, var(--p-primary-500), var(--p-primary-700));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Custom MultiSelect Styling Override */
+.custom-multiselect .p-multiselect {
+    border-radius: 1.5rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.custom-multiselect .p-multiselect-label-container {
+    padding: 0.25rem 0.5rem;
+}
+
+/* Custom Panel */
+.custom-multiselect-panel {
+    border-radius: 1.5rem !important;
+    overflow: hidden;
+    box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.15) !important;
+    border: 1px solid var(--p-content-border-color) !important;
+    margin-top: 8px;
+    transform-origin: top center;
+    animation: scaleIn 0.15s ease-out forwards;
+}
+
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95) translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+/* Selection Chips */
+.custom-multiselect .p-multiselect-token {
+    border-radius: 999px;
+    font-size: 0.85rem;
+    padding: 2px 8px;
+}
+
+/* Glass effect for panel in dark mode (optional) */
+.dark .custom-multiselect-panel {
+    background-color: rgba(30, 30, 30, 0.95) !important;
+    backdrop-filter: blur(8px);
+}
+
+/* Ensure TabView borders are rounded if they have backgrounds */
+.p-tabview .p-tabview-nav {
+    border-top-left-radius: 1.5rem !important;
+    border-top-right-radius: 1.5rem !important;
+}
+
+.p-tabview-panels {
+    border-bottom-left-radius: 1.5rem !important;
+    border-bottom-right-radius: 1.5rem !important;
+}

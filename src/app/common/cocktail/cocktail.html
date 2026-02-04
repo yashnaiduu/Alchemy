@@ -1,0 +1,31 @@
+<div class="group flex flex-col w-full h-full bg-surface-card dark:bg-surface-900 rounded-xl overflow-hidden cursor-pointer relative border border-surface dark:border-surface-700 hover:border-surface-400 dark:hover:border-surface-600 hover:shadow-lg transition-all duration-300"
+    (click)="onOpen.emit()">
+    <!-- Favorite Button -->
+    <p-button (click)="$event.stopPropagation(); onSave.emit()" class="absolute top-3 right-3 z-10" [rounded]="true"
+        [severity]="saved() ? 'primary' : 'secondary'" [text]="!saved()" [size]="'small'" aria-label="Toggle favorite">
+        <ng-template #icon>
+            <span class="material-symbols-rounded text-2xl" [class.filled]="saved()">favorite</span>
+        </ng-template>
+    </p-button>
+
+    <!-- Image -->
+    <div class="relative aspect-[3/4] overflow-hidden bg-surface-100 dark:bg-surface-800">
+        <div [style.backgroundImage]="'url(/imgs/' + cocktail()?.img + ')'"
+            class="bg-cover bg-center w-full h-full group-hover:scale-105 transition-transform duration-300">
+        </div>
+        <div
+            class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="flex flex-col gap-2 p-4">
+        <h3
+            class="text-lg font-semibold text-surface-900 dark:text-surface-0 line-clamp-2 group-hover:text-primary transition-colors">
+            {{cocktail()?.title}}
+        </h3>
+        <div class="flex items-center gap-2">
+            <p-tag [value]="cocktail()?.base + ' base' | titlecase" />
+        </div>
+    </div>
+</div>

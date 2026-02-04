@@ -1,0 +1,72 @@
+<div class="flex flex-col gap-6 sm:gap-8">
+    <!-- Header -->
+    <div class="flex flex-col gap-2">
+        <h1 class="text-3xl sm:text-4xl font-bold text-surface-900 dark:text-surface-0">
+            {{greeting()}}
+        </h1>
+        <p class="text-lg text-surface-600 dark:text-surface-400">
+            What are we mixing today?
+        </p>
+    </div>
+
+    <!-- Drink of the Day -->
+    <div
+        class="bg-surface-card rounded-xl border border-surface overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-0">
+            <div class="relative aspect-square md:aspect-auto md:h-full min-h-[300px]">
+                <div [style.backgroundImage]="'url(/imgs/' + drinkofTheDay().img + ')'"
+                    class="bg-cover bg-center w-full h-full">
+                </div>
+                <div class="absolute top-4 left-4">
+                    <span class="bg-primary-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                        Drink of the Day
+                    </span>
+                </div>
+            </div>
+            <div class="flex flex-col gap-4 p-6 lg:p-8">
+                <div>
+                    <h2 class="text-2xl sm:text-3xl font-bold text-surface-900 dark:text-surface-0 mb-2">
+                        {{drinkofTheDay().title}}
+                    </h2>
+                    <p class="text-surface-600 dark:text-surface-400 leading-relaxed">
+                        {{drinkofTheDay().description}}
+                    </p>
+                </div>
+                <div class="flex flex-wrap items-center gap-3 mt-auto">
+                    <p-tag [value]="drinkofTheDay().base + ' Base'" />
+                    <span class="text-surface-400 dark:text-surface-500">•</span>
+                    <span class="text-sm text-surface-600 dark:text-surface-400">{{drinkofTheDay().glass |
+                        titlecase}}</span>
+                </div>
+                <div class="pt-2">
+                    <p-button label="View Recipe" [routerLink]="'/browse/' + drinkofTheDay().id" [rounded]="true"
+                        class="w-full sm:w-auto">
+                    </p-button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Random Picks Section -->
+    <div class="flex flex-col gap-6">
+        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+            <div>
+                <h2 class="text-2xl sm:text-3xl font-bold text-surface-900 dark:text-surface-0">Random Picks</h2>
+                <p class="text-surface-600 dark:text-surface-400 mt-1">Discover something new</p>
+            </div>
+            <p-button (click)="shuffle()" label="Shuffle" severity="secondary" size="small">
+                <ng-template #icon>
+                    <span class="material-symbols-rounded text-lg">redo</span>
+                </ng-template>
+            </p-button>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
+            @for(item of random(); track item.id) {
+            <app-cocktail [saved]="saved().has(item.id)" [cocktail]="item" (onOpen)="goToDetails(item.id)"
+                (onSave)="toggleSave(item.id)">
+            </app-cocktail>
+            }
+        </div>
+    </div>
+</div>
