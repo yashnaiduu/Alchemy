@@ -1,99 +1,127 @@
-# 🧪 Alchemy
+<div align="center">
+  <img src="public/logo.png" alt="Alchemy Logo" width="120" />
+  <h1>🧪 Alchemy</h1>
+  <p><strong>The Magic of Mixing</strong></p>
+  
+  <p>
+    <a href="https://yashnaiduu.github.io/Alchemy/">View Live Demo</a>
+    ·
+    <a href="#-features">Features</a>
+    ·
+    <a href="#-tech-stack">Tech Stack</a>
+    ·
+    <a href="#-getting-started">Getting Started</a>
+  </p>
 
-**The Magic of Mixing**
-
-A premium cocktail discovery app with a stunning glassmorphism UI. Find recipes, match ingredients from your home bar, and master the art of mixology.
-
-![Alchemy Banner](public/logo.png)
+  <p>
+    <img src="https://img.shields.io/badge/Angular-19-dd0031?style=for-the-badge&logo=angular" alt="Angular" />
+    <img src="https://img.shields.io/badge/PrimeNG-Component_Lib-blue?style=for-the-badge&logo=primeng" alt="PrimeNG" />
+    <img src="https://img.shields.io/badge/TypeScript-Strict-3178c6?style=for-the-badge&logo=typescript" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/Tailwind-CSS-38bdf8?style=for-the-badge&logo=tailwindcss" alt="Tailwind" />
+  </p>
+</div>
 
 ---
 
-## ✨ Features
+## 🍸 About The Project
 
-- **🔍 Recipe Discovery** - Browse 100+ curated cocktail recipes
-- **🍸 Cabinet Matcher** - Find what you can make with your ingredients
-- **💾 Favorites** - Save and organize your favorite cocktails
-- **🎨 Premium UI** - Beautiful glassmorphism design with dark mode
-- **📱 Responsive** - Perfect on desktop, tablet, and mobile
+**Alchemy** is a premium cocktail discovery application designed for the modern mixologist. It bridges the gap between your home inventory and professional bartending.
+
+Unlike standard recipe apps, Alchemy focuses on **"What can I make right now?"** by intelligently matching your available ingredients against a curated database of 100+ classic and modern cocktails.
+
+Wrapped in a stunning **glassmorphism UI**, it offers a visually immersive experience that feels as premium as the drinks you create.
+
+### ✨ Key Features
+
+- **🔍 Smart Discovery** - Instantly browse 109+ curated, verified recipes.
+- **🎒 Pantry Matcher** - Input your home inventory to find compatible cocktails.
+- **🎨 Glassmorphism UI** - distinct, beautiful aesthetic with backdrop blurs and smooth gradients.
+- **📱 Fully Responsive** - Optimized experience across desktop, tablet, and mobile.
+- **🌙 Dark Mode** - Easier on the eyes for those late-night mixing sessions.
+- **💾 Favorites System** - Save your go-to drinks for quick access.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Angular 19** - Modern web framework
-- **PrimeNG** - Premium UI components
-- **Tailwind CSS** - Utility-first styling
-- **TypeScript** - Type-safe development
+This project is built with a focus on modern, type-safe web development standards:
+
+| Layer | Technology |
+| :--- | :--- |
+| **Framework** | [Angular 19](https://angular.io/) (Latest) |
+| **UI Library** | [PrimeNG](https://primeng.org/) |
+| **Styling** | [Tailwind CSS](https://tailwindcss.com/) & Vanilla CSS |
+| **Language** | [TypeScript](https://www.typescriptlang.org/) |
+| **Deployment** | GitHub Pages (Automated Workflow) |
 
 ---
 
 ## 🚀 Getting Started
 
-```bash
-# Clone the repository
-git clone https://github.com/yashnaiduu/Alchemy.git
+Follow these steps to set up the project locally.
 
-# Navigate to project
-cd Alchemy
+### Prerequisites
 
-# Install dependencies
-npm install
+*   npm
+    ```sh
+    npm install npm@latest -g
+    ```
+*   Angular CLI
+    ```sh
+    npm install -g @angular/cli
+    ```
 
-# Run development server
-npm start
-```
+### Installation
 
-Open [http://localhost:4200](http://localhost:4200) in your browser.
-
----
-
-## 📦 Build for Production
-
-```bash
-npm run build
-```
-
-The build artifacts will be stored in the `dist/` directory.
-
----
-
-## 🌐 Deploy to GitHub Pages
-
-```bash
-npm run deploy
-```
-
-This will build the app and deploy it to GitHub Pages automatically.
-
-**Live Demo**: [https://yashnaiduu.github.io/Alchemy/](https://yashnaiduu.github.io/Alchemy/)
+1.  **Clone the storage**
+    ```sh
+    git clone https://github.com/yashnaiduu/Alchemy.git
+    ```
+2.  **Navigate to project**
+    ```sh
+    cd Alchemy
+    ```
+3.  **Install dependencies**
+    ```sh
+    npm install
+    ```
+4.  **Start the server**
+    ```sh
+    npm start
+    ```
+    Your app will be live at `http://localhost:4200`
 
 ---
 
-## 🎯 Use Cases
+## 📸 Screenshots
 
-- **Home Bartenders** - Discover what you can make right now
-- **Cocktail Enthusiasts** - Explore and save premium recipes
-- **Party Planning** - Find the perfect drinks for any occasion
-- **Learning Mixology** - Master cocktail crafting techniques
+<div align="center">
+  <img src="https://placehold.co/800x450/1e1e1e/d4af37?text=Browse+Page+Preview" alt="Browse Page" width="800" style="border-radius: 12px" />
+</div>
+<br />
 
 ---
 
-## 🎨 Design
+## 🤝 Contributing
 
-Alchemy features a premium glassmorphism aesthetic with:
-- Frosted glass containers with backdrop blur
-- Smooth gradients and micro-animations
-- Dark mode optimized for evening use
-- Rounded, modern UI elements
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
 
 ---
 
 ## 📧 Contact
 
-Built by [Yash Naidu](https://github.com/yashnaiduu)
+**Yash Naidu** - [GitHub](https://github.com/yashnaiduu)
 
-For questions or feedback: [yashnnaidu@gmail.com](mailto:yashnnaidu@gmail.com)
+Project Link: [https://github.com/yashnaiduu/Alchemy](https://github.com/yashnaiduu/Alchemy)
 
 ---
 
-**Alchemy** - Transforming ingredients into experiences. 🥃✨
+<div align="center">
+  <small>Transforming ingredients into experiences. 🥃✨</small>
+</div>
