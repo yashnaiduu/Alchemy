@@ -4,7 +4,7 @@
   <p><strong>The Magic of Mixing</strong></p>
   
   <p>
-    <a href="https://yashnaiduu.github.io/Alchemy/">View Live Demo</a>
+    <a href="https://yashnaiduu.github.io/Alchemy/">✨ Experience the Live App</a>
     ·
     <a href="#-features">Features</a>
     ·
