@@ -91,14 +91,6 @@ Follow these steps to set up the project locally.
     ```
     Your app will be live at `http://localhost:4200`
 
----
-
-## 📸 Screenshots
-
-<div align="center">
-  <img src="https://placehold.co/800x450/1e1e1e/d4af37?text=Browse+Page+Preview" alt="Browse Page" width="800" style="border-radius: 12px" />
-</div>
-<br />
 
 ---
 
