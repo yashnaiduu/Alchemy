@@ -30,43 +30,6 @@
     "base": "Cognac"
   },
   {
-    "id": "amaretto-sour",
-    "title": "Amaretto Sour",
-    "ingredients": [
-      {
-        "name": "Amaretto",
-        "amount": 45,
-        "unit": "ml"
-      },
-      {
-        "name": "Fresh Lemon Juice",
-        "amount": 30,
-        "unit": "ml"
-      },
-      {
-        "name": "Simple Syrup",
-        "amount": 15,
-        "unit": "ml"
-      },
-      {
-        "name": "Egg White",
-        "amount": 1,
-        "unit": "pieces"
-      }
-    ],
-    "garnish": "Garnish with a lemon wheel and maraschino cherry",
-    "steps": [
-      "Add amaretto, lemon juice, simple syrup, and egg white to a shaker",
-      "Dry shake (without ice) for 10 seconds",
-      "Add ice and shake vigorously until chilled",
-      "Strain into a rocks glass over fresh ice"
-    ],
-    "img": "amaretto-sour.webp",
-    "glass": "rocks",
-    "description": "The Amaretto Sour is a smooth and nutty cocktail with a perfect balance of sweet and sour. The almond flavor from amaretto is complemented by fresh lemon juice, while the egg white creates a silky foam top. It's rich yet refreshing, making it a crowd-pleasing classic.",
-    "base": "Amaretto"
-  },
-  {
     "id": "americano",
     "title": "Americano",
     "ingredients": [
@@ -126,38 +89,6 @@
     "glass": "coupe",
     "description": "The Angel Face presents a layered fruit-forward profile with a dry backbone. Gin contributes crisp botanicals, while apricot brandy adds stone fruit sweetness. Calvados introduces apple notes that round out the flavor with subtle complexity. The mouthfeel is smooth and balanced, offering both freshness and depth in equal measure.",
     "base": "Gin"
-  },
-  {
-    "id": "aperol-spritz",
-    "title": "Aperol Spritz",
-    "ingredients": [
-      {
-        "name": "Aperol",
-        "amount": 60,
-        "unit": "ml"
-      },
-      {
-        "name": "Prosecco",
-        "amount": 90,
-        "unit": "ml"
-      },
-      {
-        "name": "Soda Water",
-        "amount": 30,
-        "unit": "ml"
-      }
-    ],
-    "garnish": "Garnish with an orange slice",
-    "steps": [
-      "Fill a wine glass with ice",
-      "Pour in Aperol and Prosecco",
-      "Top with a splash of soda water",
-      "Stir gently to combine"
-    ],
-    "img": "aperol-spritz.webp",
-    "glass": "wine",
-    "description": "The Aperol Spritz is a light, refreshing Italian aperitif with a beautiful orange hue. Aperol brings a bittersweet citrus flavor, balanced by the effervescence of Prosecco and soda water. It's perfect for warm afternoons and social gatherings.",
-    "base": "Aperol"
   },
   {
     "id": "aviation",
@@ -356,37 +287,6 @@
     "img": "bloody-mary.webp",
     "glass": "highball",
     "description": "The Bloody Mary is savory and robust, combining the clean neutrality of vodka with the richness of tomato juice. Lemon juice adds brightness, while Worcestershire and hot sauce contribute depth and spice. Seasonings like celery salt and pepper enhance the complexity, giving the drink a layered character. The mouthfeel is full and smooth, with a balance of acidity, spice, and umami flavors.",
-    "base": "Vodka"
-  },
-  {
-    "id": "blue-lagoon",
-    "title": "Blue Lagoon",
-    "ingredients": [
-      {
-        "name": "Vodka",
-        "amount": 50,
-        "unit": "ml"
-      },
-      {
-        "name": "Blue Curacao",
-        "amount": 20,
-        "unit": "ml"
-      },
-      {
-        "name": "Lemonade",
-        "amount": 100,
-        "unit": "ml"
-      }
-    ],
-    "garnish": "Garnish with a lemon slice and a cherry",
-    "steps": [
-      "Pour vodka and blue curacao into a highball glass filled with ice",
-      "Top with lemonade",
-      "Stir gently"
-    ],
-    "img": "blue-lagoon.webp",
-    "glass": "highball",
-    "description": "The Blue Lagoon is a vibrant and refreshing highball. Its striking blue color comes from Blue Curacao, which adds a sweet orange flavor. Paired with vodka and lemonade, it's a zesty, citrusy drink perfect for summer days.",
     "base": "Vodka"
   },
   {
@@ -1165,37 +1065,6 @@
     "base": "Campari"
   },
   {
-    "id": "gimlet",
-    "title": "Gimlet",
-    "ingredients": [
-      {
-        "name": "Gin",
-        "amount": 60,
-        "unit": "ml"
-      },
-      {
-        "name": "Fresh Lime Juice",
-        "amount": 15,
-        "unit": "ml"
-      },
-      {
-        "name": "Simple Syrup",
-        "amount": 15,
-        "unit": "ml"
-      }
-    ],
-    "garnish": "Garnish with a lime wheel",
-    "steps": [
-      "Add gin, lime juice, and simple syrup to a shaker with ice",
-      "Shake vigorously until well chilled",
-      "Strain into a chilled coupe glass"
-    ],
-    "img": "gimlet.webp",
-    "glass": "coupe",
-    "description": "The Gimlet is a crisp and elegant cocktail that showcases the botanical complexity of gin. Fresh lime juice adds bright acidity, balanced by just enough sweetness. It's simple, sophisticated, and perfectly balanced - a true classic that never goes out of style.",
-    "base": "Gin"
-  },
-  {
     "id": "gin-basil-smash",
     "title": "Gin Basil Smash",
     "ingredients": [
@@ -1267,31 +1136,6 @@
     "glass": "collins",
     "description": "The Gin Fizz is light and effervescent, with gin providing a crisp botanical base. Lemon juice adds bright acidity, balanced by the gentle sweetness of simple syrup. Soda water introduces bubbles that lift the flavors and create a lively texture. The mouthfeel is smooth and sparkling, with a clean finish that emphasizes freshness.",
     "base": "Gin"
-  },
-  {
-    "id": "godfather",
-    "title": "Godfather",
-    "ingredients": [
-      {
-        "name": "Scotch Whisky",
-        "amount": 35,
-        "unit": "ml"
-      },
-      {
-        "name": "Amaretto",
-        "amount": 35,
-        "unit": "ml"
-      }
-    ],
-    "garnish": "",
-    "steps": [
-      "Pour ingredients into an ice-filled old fashioned glass",
-      "Stir gently"
-    ],
-    "img": "godfather.webp",
-    "glass": "rocks",
-    "description": "The Godfather is a simple yet elegant duo cocktail. The smoky, woody notes of Scotch whisky are perfectly softened by the sweet, nutty almond flavor of Amaretto. It's a slow-sipping drink with a warm finish.",
-    "base": "Whiskey"
   },
   {
     "id": "grand-margarita",
@@ -3544,43 +3388,6 @@
     "base": "Whiskey"
   },
   {
-    "id": "tom-collins",
-    "title": "Tom Collins",
-    "ingredients": [
-      {
-        "name": "Gin",
-        "amount": 45,
-        "unit": "ml"
-      },
-      {
-        "name": "Fresh Lemon Juice",
-        "amount": 30,
-        "unit": "ml"
-      },
-      {
-        "name": "Simple Syrup",
-        "amount": 15,
-        "unit": "ml"
-      },
-      {
-        "name": "Soda Water",
-        "amount": 60,
-        "unit": "ml"
-      }
-    ],
-    "garnish": "Garnish with a lemon wheel and maraschino cherry",
-    "steps": [
-      "Add gin, lemon juice, and simple syrup to a shaker with ice",
-      "Shake well until chilled",
-      "Strain into a Collins glass filled with ice",
-      "Top with soda water and stir gently"
-    ],
-    "img": "tom-collins.webp",
-    "glass": "highball",
-    "description": "The Tom Collins is a refreshing gin-based highball with a perfect balance of citrus and sweetness. The combination of gin, lemon, and soda water creates a light, effervescent drink that's both sophisticated and easy-drinking. It's a timeless classic for any occasion.",
-    "base": "Gin"
-  },
-  {
     "id": "tommys-margarita",
     "title": "Tommy’s Margarita",
     "ingredients": [
@@ -3869,37 +3676,6 @@
     "base": "Gin"
   },
   {
-    "id": "white-russian",
-    "title": "White Russian",
-    "ingredients": [
-      {
-        "name": "Vodka",
-        "amount": 50,
-        "unit": "ml"
-      },
-      {
-        "name": "Coffee Liqueur",
-        "amount": 20,
-        "unit": "ml"
-      },
-      {
-        "name": "Fresh Cream",
-        "amount": 30,
-        "unit": "ml"
-      }
-    ],
-    "garnish": "",
-    "steps": [
-      "Pour vodka and coffee liqueur into an old fashioned glass filled with ice cubes",
-      "Float fresh cream on top",
-      "Stir slowly"
-    ],
-    "img": "white-russian.webp",
-    "glass": "rocks",
-    "description": "The White Russian is a decadent and creamy cocktail. The crisp vodka cuts through the rich coffee liqueur, while the fresh cream adds a velvety texture. It's a dessert-like drink that is both comforting and sophisticated.",
-    "base": "Vodka"
-  },
-  {
     "id": "zombie",
     "title": "Zombie",
     "ingredients": [
@@ -3960,5 +3736,92 @@
     "glass": "hurricane",
     "description": "The Zombie is rich and layered, with multiple rums creating a bold and complex foundation. Lime juice adds acidity, while falernum and grenadine contribute sweetness and spice. Donn’s Mix and bitters enhance the depth with subtle aromatics, and Pernod introduces a faint herbal note. The mouthfeel is full-bodied and cooling, with crushed ice amplifying its refreshing character.",
     "base": "Rum"
+  },
+  {
+    "id": "white-russian",
+    "title": "White Russian",
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "name": "Coffee Liqueur",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Fresh Cream",
+        "amount": 30,
+        "unit": "ml"
+      }
+    ],
+    "garnish": "",
+    "steps": [
+      "Pour vodka and coffee liqueur into an old fashioned glass filled with ice cubes",
+      "Float fresh cream on top",
+      "Stir slowly"
+    ],
+    "img": "white-russian.webp",
+    "glass": "rocks",
+    "description": "The White Russian is a decadent and creamy cocktail. The crisp vodka cuts through the rich coffee liqueur, while the fresh cream adds a velvety texture. It's a dessert-like drink that is both comforting and sophisticated.",
+    "base": "Vodka"
+  },
+  {
+    "id": "godfather",
+    "title": "Godfather",
+    "ingredients": [
+      {
+        "name": "Scotch Whisky",
+        "amount": 35,
+        "unit": "ml"
+      },
+      {
+        "name": "Amaretto",
+        "amount": 35,
+        "unit": "ml"
+      }
+    ],
+    "garnish": "",
+    "steps": [
+      "Pour ingredients into an ice-filled old fashioned glass",
+      "Stir gently"
+    ],
+    "img": "godfather.webp",
+    "glass": "rocks",
+    "description": "The Godfather is a simple yet elegant duo cocktail. The smoky, woody notes of Scotch whisky are perfectly softened by the sweet, nutty almond flavor of Amaretto. It's a slow-sipping drink with a warm finish.",
+    "base": "Whiskey"
+  },
+  {
+    "id": "blue-lagoon",
+    "title": "Blue Lagoon",
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "name": "Blue Curacao",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Lemonade",
+        "amount": 100,
+        "unit": "ml"
+      }
+    ],
+    "garnish": "Garnish with a lemon slice and a cherry",
+    "steps": [
+      "Pour vodka and blue curacao into a highball glass filled with ice",
+      "Top with lemonade",
+      "Stir gently"
+    ],
+    "img": "blue-lagoon.webp",
+    "glass": "highball",
+    "description": "The Blue Lagoon is a vibrant and refreshing highball. Its striking blue color comes from Blue Curacao, which adds a sweet orange flavor. Paired with vodka and lemonade, it's a zesty, citrusy drink perfect for summer days.",
+    "base": "Vodka"
   }
 ]
