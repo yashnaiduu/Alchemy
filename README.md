@@ -6,10 +6,6 @@
   <p>
     <a href="https://yashnaiduu.github.io/Alchemy/">✨ Experience the Live App</a>
     ·
-    <a href="#-features">Features</a>
-    ·
-    <a href="#-tech-stack">Tech Stack</a>
-    ·
     <a href="#-getting-started">Getting Started</a>
   </p>
 
