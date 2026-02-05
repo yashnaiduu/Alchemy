@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: 'sans';
-    src: url('/Alchemy/GoogleSansFlex-VariableFont.ttf');
+    src: url('/GoogleSansFlex-VariableFont.ttf');
 }
 
 @font-face {
     font-family: 'Material Symbols Rounded';
-    src: url('/Alchemy/MaterialSymbolsRounded.ttf');
+    src: url('/MaterialSymbolsRounded.ttf');
 }
 
 html {
