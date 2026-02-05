@@ -9,7 +9,7 @@
         "unit": "ml"
       },
       {
-        "name": "Cr\u00e8me de Cacao (Brown)",
+        "name": "Crème de Cacao (Brown)",
         "amount": 30.0,
         "unit": "ml"
       },
@@ -21,13 +21,50 @@
     ],
     "garnish": "Finish with a light sprinkle of ground nutmeg on top",
     "steps": [
-      "Place cognac, cr\u00e8me de cacao, and cream into a shaker filled with ice",
+      "Place cognac, crème de cacao, and cream into a shaker filled with ice",
       "Shake firmly until smooth and cold, then strain into a chilled glass"
     ],
     "img": "alexander.webp",
     "glass": "coupe",
-    "description": "The Alexander is a creamy and indulgent cocktail with a smooth, velvety mouthfeel. Cognac provides warmth and depth, while cr\u00e8me de cacao adds a gentle chocolate sweetness. Fresh cream softens the edges, creating a balanced and rounded sip. The nutmeg garnish introduces a subtle spice that complements the richness without overpowering.",
+    "description": "The Alexander is a creamy and indulgent cocktail with a smooth, velvety mouthfeel. Cognac provides warmth and depth, while crème de cacao adds a gentle chocolate sweetness. Fresh cream softens the edges, creating a balanced and rounded sip. The nutmeg garnish introduces a subtle spice that complements the richness without overpowering.",
     "base": "Cognac"
+  },
+  {
+    "id": "amaretto-sour",
+    "title": "Amaretto Sour",
+    "ingredients": [
+      {
+        "name": "Amaretto",
+        "amount": 45,
+        "unit": "ml"
+      },
+      {
+        "name": "Fresh Lemon Juice",
+        "amount": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "Simple Syrup",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Egg White",
+        "amount": 1,
+        "unit": "pieces"
+      }
+    ],
+    "garnish": "Garnish with a lemon wheel and maraschino cherry",
+    "steps": [
+      "Add amaretto, lemon juice, simple syrup, and egg white to a shaker",
+      "Dry shake (without ice) for 10 seconds",
+      "Add ice and shake vigorously until chilled",
+      "Strain into a rocks glass over fresh ice"
+    ],
+    "img": "amaretto-sour.webp",
+    "glass": "rocks",
+    "description": "The Amaretto Sour is a smooth and nutty cocktail with a perfect balance of sweet and sour. The almond flavor from amaretto is complemented by fresh lemon juice, while the egg white creates a silky foam top. It's rich yet refreshing, making it a crowd-pleasing classic.",
+    "base": "Amaretto"
   },
   {
     "id": "americano",
@@ -91,6 +128,38 @@
     "base": "Gin"
   },
   {
+    "id": "aperol-spritz",
+    "title": "Aperol Spritz",
+    "ingredients": [
+      {
+        "name": "Aperol",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "Prosecco",
+        "amount": 90,
+        "unit": "ml"
+      },
+      {
+        "name": "Soda Water",
+        "amount": 30,
+        "unit": "ml"
+      }
+    ],
+    "garnish": "Garnish with an orange slice",
+    "steps": [
+      "Fill a wine glass with ice",
+      "Pour in Aperol and Prosecco",
+      "Top with a splash of soda water",
+      "Stir gently to combine"
+    ],
+    "img": "aperol-spritz.webp",
+    "glass": "wine",
+    "description": "The Aperol Spritz is a light, refreshing Italian aperitif with a beautiful orange hue. Aperol brings a bittersweet citrus flavor, balanced by the effervescence of Prosecco and soda water. It's perfect for warm afternoons and social gatherings.",
+    "base": "Aperol"
+  },
+  {
     "id": "aviation",
     "title": "Aviation",
     "ingredients": [
@@ -110,7 +179,7 @@
         "unit": "ml"
       },
       {
-        "name": "Cr\u00e8me de Violette",
+        "name": "Crème de Violette",
         "amount": 5.0,
         "unit": "ml"
       }
@@ -122,12 +191,12 @@
     ],
     "img": "aviation.webp",
     "glass": "coupe",
-    "description": "The Aviation is a delicate cocktail with a floral and citrus-driven profile. Gin provides a crisp foundation, while maraschino liqueur adds subtle cherry sweetness. Lemon juice brightens the drink with tart acidity, balancing the richness of the other elements. Cr\u00e8me de violette lends a gentle floral note, resulting in a smooth and refined sip.",
+    "description": "The Aviation is a delicate cocktail with a floral and citrus-driven profile. Gin provides a crisp foundation, while maraschino liqueur adds subtle cherry sweetness. Lemon juice brightens the drink with tart acidity, balancing the richness of the other elements. Crème de violette lends a gentle floral note, resulting in a smooth and refined sip.",
     "base": "Gin"
   },
   {
     "id": "bees-knees",
-    "title": "Bee\u2019s Knees",
+    "title": "Bee’s Knees",
     "ingredients": [
       {
         "name": "Dry Gin",
@@ -158,7 +227,7 @@
     ],
     "img": "bees-knees.webp",
     "glass": "coupe",
-    "description": "The Bee\u2019s Knees offers a bright citrus profile softened by the natural sweetness of honey. The gin provides a crisp botanical backbone that balances the tartness of lemon and orange. Honey adds a smooth texture and rounds off the sharper notes, giving the drink a gentle mouthfeel. Overall, it is refreshing yet layered, with a harmony of sweet, sour, and herbal elements.",
+    "description": "The Bee’s Knees offers a bright citrus profile softened by the natural sweetness of honey. The gin provides a crisp botanical backbone that balances the tartness of lemon and orange. Honey adds a smooth texture and rounds off the sharper notes, giving the drink a gentle mouthfeel. Overall, it is refreshing yet layered, with a harmony of sweet, sour, and herbal elements.",
     "base": "Gin"
   },
   {
@@ -245,7 +314,7 @@
     ],
     "img": "black-russian.webp",
     "glass": "rocks",
-    "description": "The Black Russian is bold and straightforward with a strong coffee flavor supported by a clean vodka base. The coffee liqueur adds sweetness and depth, creating a smooth contrast to the spirit\u2019s neutrality. Its mouthfeel is rich yet uncomplicated, with a slightly syrupy texture from the liqueur. Overall, it is a direct and balanced drink with a dark, robust character.",
+    "description": "The Black Russian is bold and straightforward with a strong coffee flavor supported by a clean vodka base. The coffee liqueur adds sweetness and depth, creating a smooth contrast to the spirit’s neutrality. Its mouthfeel is rich yet uncomplicated, with a slightly syrupy texture from the liqueur. Overall, it is a direct and balanced drink with a dark, robust character.",
     "base": "Vodka"
   },
   {
@@ -287,6 +356,37 @@
     "img": "bloody-mary.webp",
     "glass": "highball",
     "description": "The Bloody Mary is savory and robust, combining the clean neutrality of vodka with the richness of tomato juice. Lemon juice adds brightness, while Worcestershire and hot sauce contribute depth and spice. Seasonings like celery salt and pepper enhance the complexity, giving the drink a layered character. The mouthfeel is full and smooth, with a balance of acidity, spice, and umami flavors.",
+    "base": "Vodka"
+  },
+  {
+    "id": "blue-lagoon",
+    "title": "Blue Lagoon",
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "name": "Blue Curacao",
+        "amount": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Lemonade",
+        "amount": 100,
+        "unit": "ml"
+      }
+    ],
+    "garnish": "Garnish with a lemon slice and a cherry",
+    "steps": [
+      "Pour vodka and blue curacao into a highball glass filled with ice",
+      "Top with lemonade",
+      "Stir gently"
+    ],
+    "img": "blue-lagoon.webp",
+    "glass": "highball",
+    "description": "The Blue Lagoon is a vibrant and refreshing highball. Its striking blue color comes from Blue Curacao, which adds a sweet orange flavor. Paired with vodka and lemonade, it's a zesty, citrusy drink perfect for summer days.",
     "base": "Vodka"
   },
   {
@@ -340,7 +440,7 @@
         "unit": "ml"
       },
       {
-        "name": "Cr\u00e8me de M\u00fbre",
+        "name": "Crème de Mûre",
         "amount": 15.0,
         "unit": "ml"
       }
@@ -349,11 +449,11 @@
     "steps": [
       "Add gin, lemon juice, and sugar syrup into a shaker filled with ice",
       "Shake well until chilled and strain into a short glass filled with crushed ice",
-      "Slowly drizzle cr\u00e8me de m\u00fbre over the top in a circular motion"
+      "Slowly drizzle crème de mûre over the top in a circular motion"
     ],
     "img": "bramble.webp",
     "glass": "rocks",
-    "description": "The Bramble is refreshing and fruit-forward, with gin\u2019s crisp botanicals forming the base. Lemon juice provides tartness, balanced by the gentle sweetness of sugar syrup. Cr\u00e8me de m\u00fbre adds rich blackberry notes that cascade through the drink, creating a layered effect. The crushed ice gives it a cooling texture, making the mouthfeel light and invigorating.",
+    "description": "The Bramble is refreshing and fruit-forward, with gin’s crisp botanicals forming the base. Lemon juice provides tartness, balanced by the gentle sweetness of sugar syrup. Crème de mûre adds rich blackberry notes that cascade through the drink, creating a layered effect. The crushed ice gives it a cooling texture, making the mouthfeel light and invigorating.",
     "base": "Gin"
   },
   {
@@ -406,7 +506,7 @@
     "title": "Caipirinha",
     "ingredients": [
       {
-        "name": "Cacha\u00e7a",
+        "name": "Cachaça",
         "amount": 60.0,
         "unit": "ml"
       },
@@ -425,13 +525,13 @@
     "steps": [
       "Place lime wedges and sugar into a short glass",
       "Muddle gently to release juice and dissolve sugar",
-      "Fill the glass with crushed ice and pour in cacha\u00e7a",
+      "Fill the glass with crushed ice and pour in cachaça",
       "Stir slowly to mix the flavors together"
     ],
     "img": "caipirinha.webp",
     "glass": "rocks",
-    "description": "The Caipirinha is bright and refreshing, with cacha\u00e7a providing a rustic, earthy backbone. Fresh lime adds sharp acidity that balances the sweetness of cane sugar. The muddled fruit creates a textured mouthfeel, blending juice and oils into the drink. Overall, it is crisp, slightly raw, and invigorating, with a natural balance of sweet, sour, and spirit-forward notes.",
-    "base": "Cacha\u00e7a"
+    "description": "The Caipirinha is bright and refreshing, with cachaça providing a rustic, earthy backbone. Fresh lime adds sharp acidity that balances the sweetness of cane sugar. The muddled fruit creates a textured mouthfeel, blending juice and oils into the drink. Overall, it is crisp, slightly raw, and invigorating, with a natural balance of sweet, sour, and spirit-forward notes.",
+    "base": "Cachaça"
   },
   {
     "id": "canchanchara",
@@ -498,7 +598,7 @@
     ],
     "img": "cardinale.webp",
     "glass": "martini",
-    "description": "The Cardinale is crisp and aromatic, with gin\u2019s botanicals forming the central structure. Dry vermouth adds herbal dryness and a subtle sweetness, while Campari contributes a bitter edge. The balance is clean and slightly sharp, with citrus zest enhancing the aroma. Its mouthfeel is smooth and light, leaving a lingering herbal and bitter finish.",
+    "description": "The Cardinale is crisp and aromatic, with gin’s botanicals forming the central structure. Dry vermouth adds herbal dryness and a subtle sweetness, while Campari contributes a bitter edge. The balance is clean and slightly sharp, with citrus zest enhancing the aroma. Its mouthfeel is smooth and light, leaving a lingering herbal and bitter finish.",
     "base": "Gin"
   },
   {
@@ -646,7 +746,7 @@
     ],
     "img": "clover-club.webp",
     "glass": "coupe",
-    "description": "The Clover Club is light and balanced, with gin\u2019s botanicals forming a crisp foundation. Raspberry syrup adds gentle fruit sweetness, while lemon juice provides bright acidity. Egg white creates a smooth, silky texture and a delicate foam that softens the sharper notes. The overall character is refined, with a harmonious blend of tart, sweet, and herbal elements.",
+    "description": "The Clover Club is light and balanced, with gin’s botanicals forming a crisp foundation. Raspberry syrup adds gentle fruit sweetness, while lemon juice provides bright acidity. Egg white creates a smooth, silky texture and a delicate foam that softens the sharper notes. The overall character is refined, with a harmonious blend of tart, sweet, and herbal elements.",
     "base": "Gin"
   },
   {
@@ -791,7 +891,7 @@
   },
   {
     "id": "dark-n-stormy",
-    "title": "Dark \u2018N\u2019 Stormy",
+    "title": "Dark ‘N’ Stormy",
     "ingredients": [
       {
         "name": "Goslings Rum",
@@ -812,12 +912,12 @@
     ],
     "img": "dark-n-stormy.webp",
     "glass": "highball",
-    "description": "The Dark \u2018N\u2019 Stormy combines the deep, molasses-rich flavor of dark rum with the fiery spice of ginger beer. The rum adds warmth and depth, while the ginger beer provides effervescence and a sharp bite. Lime garnish enhances the citrus edge, balancing the sweetness and spice. The mouthfeel is lively and slightly robust, with a layered character that is both refreshing and bold.",
+    "description": "The Dark ‘N’ Stormy combines the deep, molasses-rich flavor of dark rum with the fiery spice of ginger beer. The rum adds warmth and depth, while the ginger beer provides effervescence and a sharp bite. Lime garnish enhances the citrus edge, balancing the sweetness and spice. The mouthfeel is lively and slightly robust, with a layered character that is both refreshing and bold.",
     "base": "Rum"
   },
   {
     "id": "dons-special-daiquiri",
-    "title": "Don\u2019s Special Daiquiri",
+    "title": "Don’s Special Daiquiri",
     "ingredients": [
       {
         "name": "Gold Jamaican Rum",
@@ -853,7 +953,7 @@
     ],
     "img": "dons-special-daiquiri.webp",
     "glass": "hurricane",
-    "description": "Don\u2019s Special Daiquiri is tropical and layered, with rum providing a rich and spirited foundation. Passion fruit syrup adds bright, exotic sweetness, while lime juice contributes sharp acidity. Honey syrup smooths the edges, giving the drink a rounded and mellow finish. The blended ice creates a cooling texture, resulting in a balanced cocktail that is both fruity and refreshing.",
+    "description": "Don’s Special Daiquiri is tropical and layered, with rum providing a rich and spirited foundation. Passion fruit syrup adds bright, exotic sweetness, while lime juice contributes sharp acidity. Honey syrup smooths the edges, giving the drink a rounded and mellow finish. The blended ice creates a cooling texture, resulting in a balanced cocktail that is both fruity and refreshing.",
     "base": "Rum"
   },
   {
@@ -879,7 +979,7 @@
     ],
     "img": "dry-martini.webp",
     "glass": "martini",
-    "description": "The Dry Martini is clean and precise, with gin\u2019s botanicals forming a sharp and aromatic base. Dry vermouth adds subtle herbal notes and a touch of dryness that complements the spirit. The garnish, whether lemon peel or olive, introduces a final aromatic or savory accent. Its mouthfeel is smooth and brisk, leaving a refined and lingering finish.",
+    "description": "The Dry Martini is clean and precise, with gin’s botanicals forming a sharp and aromatic base. Dry vermouth adds subtle herbal notes and a touch of dryness that complements the spirit. The garnish, whether lemon peel or olive, introduces a final aromatic or savory accent. Its mouthfeel is smooth and brisk, leaving a refined and lingering finish.",
     "base": "Gin"
   },
   {
@@ -892,7 +992,7 @@
         "unit": "ml"
       },
       {
-        "name": "Kahl\u00faa",
+        "name": "Kahlúa",
         "amount": 30.0,
         "unit": "ml"
       },
@@ -909,13 +1009,13 @@
     ],
     "garnish": "Place three coffee beans on the surface of the drink",
     "steps": [
-      "Add vodka, Kahl\u00faa, and sugar syrup into a shaker filled with ice",
+      "Add vodka, Kahlúa, and sugar syrup into a shaker filled with ice",
       "Shake vigorously until the mixture is well chilled and frothy",
       "Strain the drink into a chilled glass"
     ],
     "img": "espresso-martini.webp",
     "glass": "coupe",
-    "description": "The Espresso Martini is bold and invigorating, with vodka providing a clean spirit base. Kahl\u00faa adds rich coffee sweetness, while fresh espresso contributes depth and intensity. Sugar syrup smooths the edges, balancing bitterness with a touch of sweetness. The mouthfeel is velvety and slightly frothy, offering a layered experience of strong coffee and subtle sweetness.",
+    "description": "The Espresso Martini is bold and invigorating, with vodka providing a clean spirit base. Kahlúa adds rich coffee sweetness, while fresh espresso contributes depth and intensity. Sugar syrup smooths the edges, balancing bitterness with a touch of sweetness. The mouthfeel is velvety and slightly frothy, offering a layered experience of strong coffee and subtle sweetness.",
     "base": "Vodka"
   },
   {
@@ -978,7 +1078,7 @@
     ],
     "img": "french-75.webp",
     "glass": "wine",
-    "description": "The French 75 is crisp and effervescent, with gin providing a botanical base. Lemon juice adds bright acidity, while sugar syrup balances with gentle sweetness. Champagne contributes dryness and lively bubbles, enhancing the drink\u2019s refreshing character. The mouthfeel is light and sparkling, with a clean finish that balances citrus, sweetness, and herbal notes.",
+    "description": "The French 75 is crisp and effervescent, with gin providing a botanical base. Lemon juice adds bright acidity, while sugar syrup balances with gentle sweetness. Champagne contributes dryness and lively bubbles, enhancing the drink’s refreshing character. The mouthfeel is light and sparkling, with a clean finish that balances citrus, sweetness, and herbal notes.",
     "base": "Gin"
   },
   {
@@ -1004,7 +1104,7 @@
     ],
     "img": "french-connection.webp",
     "glass": "rocks",
-    "description": "The French Connection is smooth and warming, with cognac providing depth and richness. Amaretto adds almond sweetness, creating a gentle contrast to the spirit\u2019s bold character. The balance is straightforward, highlighting the interplay of nutty sweetness and robust brandy notes. Its mouthfeel is silky and full-bodied, leaving a lingering, mellow finish.",
+    "description": "The French Connection is smooth and warming, with cognac providing depth and richness. Amaretto adds almond sweetness, creating a gentle contrast to the spirit’s bold character. The balance is straightforward, highlighting the interplay of nutty sweetness and robust brandy notes. Its mouthfeel is silky and full-bodied, leaving a lingering, mellow finish.",
     "base": "Cognac"
   },
   {
@@ -1065,6 +1165,37 @@
     "base": "Campari"
   },
   {
+    "id": "gimlet",
+    "title": "Gimlet",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "Fresh Lime Juice",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Simple Syrup",
+        "amount": 15,
+        "unit": "ml"
+      }
+    ],
+    "garnish": "Garnish with a lime wheel",
+    "steps": [
+      "Add gin, lime juice, and simple syrup to a shaker with ice",
+      "Shake vigorously until well chilled",
+      "Strain into a chilled coupe glass"
+    ],
+    "img": "gimlet.webp",
+    "glass": "coupe",
+    "description": "The Gimlet is a crisp and elegant cocktail that showcases the botanical complexity of gin. Fresh lime juice adds bright acidity, balanced by just enough sweetness. It's simple, sophisticated, and perfectly balanced - a true classic that never goes out of style.",
+    "base": "Gin"
+  },
+  {
     "id": "gin-basil-smash",
     "title": "Gin Basil Smash",
     "ingredients": [
@@ -1097,7 +1228,7 @@
     ],
     "img": "gin-basil-smash.webp",
     "glass": "coupe",
-    "description": "The Gin Basil Smash is herbal and crisp, with gin\u2019s botanicals forming a clean foundation. Fresh basil adds aromatic green notes that complement the sharpness of lemon juice. Sugar syrup rounds out the acidity, creating a balanced and approachable flavor. The mouthfeel is smooth and refreshing, with a lively character that emphasizes freshness.",
+    "description": "The Gin Basil Smash is herbal and crisp, with gin’s botanicals forming a clean foundation. Fresh basil adds aromatic green notes that complement the sharpness of lemon juice. Sugar syrup rounds out the acidity, creating a balanced and approachable flavor. The mouthfeel is smooth and refreshing, with a lively character that emphasizes freshness.",
     "base": "Gin"
   },
   {
@@ -1138,6 +1269,31 @@
     "base": "Gin"
   },
   {
+    "id": "godfather",
+    "title": "Godfather",
+    "ingredients": [
+      {
+        "name": "Scotch Whisky",
+        "amount": 35,
+        "unit": "ml"
+      },
+      {
+        "name": "Amaretto",
+        "amount": 35,
+        "unit": "ml"
+      }
+    ],
+    "garnish": "",
+    "steps": [
+      "Pour ingredients into an ice-filled old fashioned glass",
+      "Stir gently"
+    ],
+    "img": "godfather.webp",
+    "glass": "rocks",
+    "description": "The Godfather is a simple yet elegant duo cocktail. The smoky, woody notes of Scotch whisky are perfectly softened by the sweet, nutty almond flavor of Amaretto. It's a slow-sipping drink with a warm finish.",
+    "base": "Whiskey"
+  },
+  {
     "id": "grand-margarita",
     "title": "Grand Margarita",
     "ingredients": [
@@ -1175,12 +1331,12 @@
     "title": "Grasshopper",
     "ingredients": [
       {
-        "name": "Cr\u00e8me de Cacao (White)",
+        "name": "Crème de Cacao (White)",
         "amount": 20.0,
         "unit": "ml"
       },
       {
-        "name": "Cr\u00e8me de Menthe (Green)",
+        "name": "Crème de Menthe (Green)",
         "amount": 20.0,
         "unit": "ml"
       },
@@ -1192,14 +1348,14 @@
     ],
     "garnish": "",
     "steps": [
-      "Add cr\u00e8me de cacao, cr\u00e8me de menthe, and fresh cream into a shaker filled with ice",
+      "Add crème de cacao, crème de menthe, and fresh cream into a shaker filled with ice",
       "Shake vigorously until the mixture is smooth and well chilled",
       "Strain the drink into a chilled glass"
     ],
     "img": "grasshopper.webp",
     "glass": "coupe",
-    "description": "The Grasshopper is creamy and sweet, with cr\u00e8me de menthe providing a cool mint flavor. Cr\u00e8me de cacao adds gentle chocolate notes that blend smoothly with the mint. Fresh cream softens the flavors, creating a velvety texture and rounded mouthfeel. The overall character is light, dessert-like, and refreshing, with a balance of sweetness and creaminess.",
-    "base": "Cr\u00e8me de Menthe"
+    "description": "The Grasshopper is creamy and sweet, with crème de menthe providing a cool mint flavor. Crème de cacao adds gentle chocolate notes that blend smoothly with the mint. Fresh cream softens the flavors, creating a velvety texture and rounded mouthfeel. The overall character is light, dessert-like, and refreshing, with a balance of sweetness and creaminess.",
+    "base": "Crème de Menthe"
   },
   {
     "id": "hanky-panky",
@@ -1229,7 +1385,7 @@
     ],
     "img": "hanky-panky.webp",
     "glass": "martini",
-    "description": "The Hanky Panky is aromatic and layered, with gin\u2019s botanicals forming a crisp foundation. Sweet vermouth adds richness and herbal sweetness, while fernet introduces a distinct bitter and menthol-like edge. The balance is complex yet harmonious, with each element contributing to a nuanced flavor profile. Its mouthfeel is smooth and slightly robust, leaving a lingering herbal finish.",
+    "description": "The Hanky Panky is aromatic and layered, with gin’s botanicals forming a crisp foundation. Sweet vermouth adds richness and herbal sweetness, while fernet introduces a distinct bitter and menthol-like edge. The balance is complex yet harmonious, with each element contributing to a nuanced flavor profile. Its mouthfeel is smooth and slightly robust, leaving a lingering herbal finish.",
     "base": "Gin"
   },
   {
@@ -1270,7 +1426,7 @@
   },
   {
     "id": "horses-neck",
-    "title": "Horse\u2019s Neck",
+    "title": "Horse’s Neck",
     "ingredients": [
       {
         "name": "Cognac",
@@ -1296,7 +1452,7 @@
     ],
     "img": "horses-neck.webp",
     "glass": "highball",
-    "description": "The Horse\u2019s Neck is smooth and warming, with cognac offering depth and richness. Ginger ale provides effervescence and gentle sweetness, creating balance with the spirit. Optional bitters add spice and complexity, enhancing the overall profile. The mouthfeel is lively yet rounded, with a refreshing finish accented by citrus peel.",
+    "description": "The Horse’s Neck is smooth and warming, with cognac offering depth and richness. Ginger ale provides effervescence and gentle sweetness, creating balance with the spirit. Optional bitters add spice and complexity, enhancing the overall profile. The mouthfeel is lively yet rounded, with a refreshing finish accented by citrus peel.",
     "base": "Cognac"
   },
   {
@@ -1482,7 +1638,7 @@
     ],
     "img": "john-collins.webp",
     "glass": "collins",
-    "description": "The John Collins is crisp and refreshing, with gin\u2019s botanicals forming a clean and aromatic base. Lemon juice adds sharp acidity, balanced by the gentle sweetness of simple syrup. Soda water introduces effervescence, lifting the flavors and creating a lively texture. The mouthfeel is light and sparkling, with a straightforward balance of sweet, sour, and herbal notes.",
+    "description": "The John Collins is crisp and refreshing, with gin’s botanicals forming a clean and aromatic base. Lemon juice adds sharp acidity, balanced by the gentle sweetness of simple syrup. Soda water introduces effervescence, lifting the flavors and creating a lively texture. The mouthfeel is light and sparkling, with a straightforward balance of sweet, sour, and herbal notes.",
     "base": "Gin"
   },
   {
@@ -1536,19 +1692,19 @@
         "unit": "ml"
       },
       {
-        "name": "Cre\u0300me de Cassis",
+        "name": "Crème de Cassis",
         "amount": 10.0,
         "unit": "ml"
       }
     ],
     "garnish": "",
     "steps": [
-      "Pour cr\u00e8me de cassis into a chilled glass",
+      "Pour crème de cassis into a chilled glass",
       "Slowly add dry white wine to fill the glass, allowing the liquids to blend gently"
     ],
     "img": "kir.webp",
     "glass": "wine",
-    "description": "The Kir is light and fruity, with dry white wine providing a crisp and refreshing base. Cr\u00e8me de cassis adds berry sweetness and a touch of richness, blending smoothly with the wine. The balance is gentle, highlighting the interplay of tartness and sweetness. Its mouthfeel is clean and easy, with a subtle fruit finish that complements the wine\u2019s dryness.",
+    "description": "The Kir is light and fruity, with dry white wine providing a crisp and refreshing base. Crème de cassis adds berry sweetness and a touch of richness, blending smoothly with the wine. The balance is gentle, highlighting the interplay of tartness and sweetness. Its mouthfeel is clean and easy, with a subtle fruit finish that complements the wine’s dryness.",
     "base": "Wine"
   },
   {
@@ -1584,7 +1740,7 @@
     ],
     "img": "last-word.webp",
     "glass": "coupe",
-    "description": "The Last Word is complex and balanced, with gin\u2019s botanicals forming a crisp foundation. Green Chartreuse adds herbal depth and a touch of spice, while maraschino liqueur provides subtle sweetness. Lime juice brightens the drink with sharp acidity, tying the flavors together. The mouthfeel is smooth and layered, leaving a lingering herbal and citrus finish.",
+    "description": "The Last Word is complex and balanced, with gin’s botanicals forming a crisp foundation. Green Chartreuse adds herbal depth and a touch of spice, while maraschino liqueur provides subtle sweetness. Lime juice brightens the drink with sharp acidity, tying the flavors together. The mouthfeel is smooth and layered, leaving a lingering herbal and citrus finish.",
     "base": "Gin"
   },
   {
@@ -1817,7 +1973,7 @@
     ],
     "img": "martinez.webp",
     "glass": "martini",
-    "description": "The Martinez is rich and aromatic, with gin\u2019s botanicals forming a crisp foundation. Sweet vermouth adds herbal sweetness and depth, while maraschino liqueur introduces subtle cherry notes. Orange bitters provide a gentle spice that rounds out the profile. The mouthfeel is smooth and layered, with a lingering finish of herbal and citrus elements.",
+    "description": "The Martinez is rich and aromatic, with gin’s botanicals forming a crisp foundation. Sweet vermouth adds herbal sweetness and depth, while maraschino liqueur introduces subtle cherry notes. Orange bitters provide a gentle spice that rounds out the profile. The mouthfeel is smooth and layered, with a lingering finish of herbal and citrus elements.",
     "base": "Gin"
   },
   {
@@ -1916,12 +2072,12 @@
     ],
     "img": "mint-julep.webp",
     "glass": "rocks",
-    "description": "The Mint Julep is cooling and aromatic, with bourbon providing a rich and warming base. Fresh mint adds herbal brightness, while sugar and water soften the spirit\u2019s intensity. The cracked ice creates a frosty texture that enhances the refreshing character. Its mouthfeel is smooth and chilled, with a layered balance of sweetness, herbal notes, and whiskey depth.",
+    "description": "The Mint Julep is cooling and aromatic, with bourbon providing a rich and warming base. Fresh mint adds herbal brightness, while sugar and water soften the spirit’s intensity. The cracked ice creates a frosty texture that enhances the refreshing character. Its mouthfeel is smooth and chilled, with a layered balance of sweetness, herbal notes, and whiskey depth.",
     "base": "Whiskey"
   },
   {
     "id": "missionarys-downfall",
-    "title": "Missionary\u2019s Downfall",
+    "title": "Missionary’s Downfall",
     "ingredients": [
       {
         "name": "White Rum",
@@ -1962,7 +2118,7 @@
     ],
     "img": "missionarys-downfall.webp",
     "glass": "hurricane",
-    "description": "The Missionary\u2019s Downfall is tropical and refreshing, with rum providing a light and smooth base. Peach brandy adds a soft fruit sweetness, while lime juice contributes bright acidity. Honey mix rounds out the flavors with gentle richness, and pineapple adds a juicy, tropical note. Mint enhances the aroma and provides a cooling finish, giving the drink a layered and balanced character.",
+    "description": "The Missionary’s Downfall is tropical and refreshing, with rum providing a light and smooth base. Peach brandy adds a soft fruit sweetness, while lime juice contributes bright acidity. Honey mix rounds out the flavors with gentle richness, and pineapple adds a juicy, tropical note. Mint enhances the aroma and provides a cooling finish, giving the drink a layered and balanced character.",
     "base": "Rum"
   },
   {
@@ -2041,7 +2197,7 @@
     ],
     "img": "monkey-gland.webp",
     "glass": "coupe",
-    "description": "The Monkey Gland is bold and distinctive, with gin\u2019s botanicals forming a sharp base. Orange juice adds bright sweetness and acidity, while grenadine provides a subtle fruit depth. Absinthe contributes a faint herbal and anise note, adding complexity to the profile. The mouthfeel is smooth and balanced, with a layered interplay of citrus, herbal, and sweet flavors.",
+    "description": "The Monkey Gland is bold and distinctive, with gin’s botanicals forming a sharp base. Orange juice adds bright sweetness and acidity, while grenadine provides a subtle fruit depth. Absinthe contributes a faint herbal and anise note, adding complexity to the profile. The mouthfeel is smooth and balanced, with a layered interplay of citrus, herbal, and sweet flavors.",
     "base": "Gin"
   },
   {
@@ -2140,7 +2296,7 @@
     ],
     "img": "negroni.webp",
     "glass": "rocks",
-    "description": "The Negroni is bold and bittersweet, with gin\u2019s botanicals forming a crisp foundation. Campari adds sharp bitterness and herbal depth, while sweet vermouth provides balance with gentle sweetness. The flavors are strong yet harmonious, creating a structured profile. Its mouthfeel is smooth and slightly robust, leaving a lingering finish of citrus and herbal notes.",
+    "description": "The Negroni is bold and bittersweet, with gin’s botanicals forming a crisp foundation. Campari adds sharp bitterness and herbal depth, while sweet vermouth provides balance with gentle sweetness. The flavors are strong yet harmonious, creating a structured profile. Its mouthfeel is smooth and slightly robust, leaving a lingering finish of citrus and herbal notes.",
     "base": "Gin"
   },
   {
@@ -2371,7 +2527,7 @@
     ],
     "img": "paradise.webp",
     "glass": "coupe",
-    "description": "The Paradise is light and fruity, with gin\u2019s botanicals forming a crisp and aromatic base. Apricot brandy adds stone fruit sweetness, while orange juice contributes bright citrus notes. The flavors are gentle and well-rounded, creating a smooth and approachable profile. Its mouthfeel is refreshing and balanced, with a clean finish that highlights both fruit and herbal elements.",
+    "description": "The Paradise is light and fruity, with gin’s botanicals forming a crisp and aromatic base. Apricot brandy adds stone fruit sweetness, while orange juice contributes bright citrus notes. The flavors are gentle and well-rounded, creating a smooth and approachable profile. Its mouthfeel is refreshing and balanced, with a clean finish that highlights both fruit and herbal elements.",
     "base": "Gin"
   },
   {
@@ -2446,7 +2602,7 @@
     ],
     "img": "pina-colada.webp",
     "glass": "hurricane",
-    "description": "The Pi\u00f1a Colada is creamy and tropical, with rum providing a light and smooth base. Coconut cream adds richness and a velvety texture, while pineapple juice brings bright sweetness and acidity. The flavors blend seamlessly, creating a balanced and indulgent profile. Its mouthfeel is smooth and lush, with a refreshing finish that highlights tropical fruit and creaminess.",
+    "description": "The Piña Colada is creamy and tropical, with rum providing a light and smooth base. Coconut cream adds richness and a velvety texture, while pineapple juice brings bright sweetness and acidity. The flavors blend seamlessly, creating a balanced and indulgent profile. Its mouthfeel is smooth and lush, with a refreshing finish that highlights tropical fruit and creaminess.",
     "base": "Rum"
   },
   {
@@ -2642,7 +2798,7 @@
     "title": "Rabo de Galo",
     "ingredients": [
       {
-        "name": "Cacha\u00e7a",
+        "name": "Cachaça",
         "amount": 60.0,
         "unit": "ml"
       },
@@ -2664,14 +2820,14 @@
     ],
     "garnish": "Place an orange twist on the rim of the glass before serving",
     "steps": [
-      "Add cacha\u00e7a, sweet vermouth, and cynar directly into a sturdy glass",
+      "Add cachaça, sweet vermouth, and cynar directly into a sturdy glass",
       "Fill the glass with fresh ice cubes",
       "Stir gently until the drink is well mixed and chilled"
     ],
     "img": "rabo-de-galo.webp",
     "glass": "rocks",
-    "description": "The Rabo de Galo is bold and earthy, with cacha\u00e7a providing a strong and rustic base. Sweet vermouth adds herbal sweetness, while Cynar contributes a bitter, vegetal depth. Optional bitters enhance the complexity with subtle spice. The mouthfeel is smooth yet robust, with a layered balance of sweet, bitter, and herbal notes.",
-    "base": "Cacha\u00e7a"
+    "description": "The Rabo de Galo is bold and earthy, with cachaça providing a strong and rustic base. Sweet vermouth adds herbal sweetness, while Cynar contributes a bitter, vegetal depth. Optional bitters enhance the complexity with subtle spice. The mouthfeel is smooth yet robust, with a layered balance of sweet, bitter, and herbal notes.",
+    "base": "Cachaça"
   },
   {
     "id": "ramos-fizz",
@@ -2790,7 +2946,7 @@
         "unit": "ml"
       },
       {
-        "name": "Cre\u0300me de Cassis",
+        "name": "Crème de Cassis",
         "amount": 15.0,
         "unit": "ml"
       },
@@ -2863,7 +3019,7 @@
         "unit": "pieces"
       },
       {
-        "name": "Peychaud\u2019s Bitters",
+        "name": "Peychaud’s Bitters",
         "amount": 1.25,
         "unit": "ml"
       }
@@ -2989,7 +3145,7 @@
     ],
     "img": "sherry-cobbler.webp",
     "glass": "wine",
-    "description": "The Sherry Cobbler is light and aromatic, with sherry providing a nutty and slightly oxidative base. Citrus from orange and lemon adds brightness and acidity, while sugar balances with gentle sweetness. Fresh berries enhance the fruit character, giving the drink a refreshing complexity. The mouthfeel is smooth and cooling, with a crisp finish that highlights the sherry\u2019s depth.",
+    "description": "The Sherry Cobbler is light and aromatic, with sherry providing a nutty and slightly oxidative base. Citrus from orange and lemon adds brightness and acidity, while sugar balances with gentle sweetness. Fresh berries enhance the fruit character, giving the drink a refreshing complexity. The mouthfeel is smooth and cooling, with a crisp finish that highlights the sherry’s depth.",
     "base": "Sherry"
   },
   {
@@ -3043,7 +3199,7 @@
         "unit": "ml"
       },
       {
-        "name": "DOM Be\u0301ne\u0301dictine",
+        "name": "DOM Bénédictine",
         "amount": 7.5,
         "unit": "ml"
       },
@@ -3203,20 +3359,20 @@
         "unit": "ml"
       },
       {
-        "name": "White Cr\u00e8me de Menthe",
+        "name": "White Crème de Menthe",
         "amount": 20.0,
         "unit": "ml"
       }
     ],
     "garnish": "Place a fresh mint leaf on top before serving",
     "steps": [
-      "Add cognac and white cr\u00e8me de menthe into a mixing glass filled with ice cubes",
+      "Add cognac and white crème de menthe into a mixing glass filled with ice cubes",
       "Stir slowly until the mixture is well chilled and smooth",
       "Strain the drink into a chilled glass"
     ],
     "img": "stinger.webp",
     "glass": "martini",
-    "description": "The Stinger is smooth and aromatic, with cognac providing a rich and warming base. White cr\u00e8me de menthe adds minty sweetness, creating contrast with the depth of the spirit. The flavors are straightforward yet balanced, offering a refreshing twist on a spirit-forward drink. Its mouthfeel is silky and cooling, with a lingering finish of mint and oak.",
+    "description": "The Stinger is smooth and aromatic, with cognac providing a rich and warming base. White crème de menthe adds minty sweetness, creating contrast with the depth of the spirit. The flavors are straightforward yet balanced, offering a refreshing twist on a spirit-forward drink. Its mouthfeel is silky and cooling, with a lingering finish of mint and oak.",
     "base": "Cognac"
   },
   {
@@ -3388,8 +3544,45 @@
     "base": "Whiskey"
   },
   {
+    "id": "tom-collins",
+    "title": "Tom Collins",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": 45,
+        "unit": "ml"
+      },
+      {
+        "name": "Fresh Lemon Juice",
+        "amount": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "Simple Syrup",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Soda Water",
+        "amount": 60,
+        "unit": "ml"
+      }
+    ],
+    "garnish": "Garnish with a lemon wheel and maraschino cherry",
+    "steps": [
+      "Add gin, lemon juice, and simple syrup to a shaker with ice",
+      "Shake well until chilled",
+      "Strain into a Collins glass filled with ice",
+      "Top with soda water and stir gently"
+    ],
+    "img": "tom-collins.webp",
+    "glass": "highball",
+    "description": "The Tom Collins is a refreshing gin-based highball with a perfect balance of citrus and sweetness. The combination of gin, lemon, and soda water creates a light, effervescent drink that's both sophisticated and easy-drinking. It's a timeless classic for any occasion.",
+    "base": "Gin"
+  },
+  {
     "id": "tommys-margarita",
-    "title": "Tommy\u2019s Margarita",
+    "title": "Tommy’s Margarita",
     "ingredients": [
       {
         "name": "Tequila 100% Agave",
@@ -3415,7 +3608,7 @@
     ],
     "img": "tommys-margarita.webp",
     "glass": "rocks",
-    "description": "Tommy\u2019s Margarita is clean and balanced, with tequila offering a bold agave-forward base. Lime juice adds sharp acidity, while agave nectar provides natural sweetness that smooths the profile. The flavors are straightforward yet harmonious, highlighting the interplay of citrus and spirit. Its mouthfeel is crisp and refreshing, with a bright finish that emphasizes agave and lime.",
+    "description": "Tommy’s Margarita is clean and balanced, with tequila offering a bold agave-forward base. Lime juice adds sharp acidity, while agave nectar provides natural sweetness that smooths the profile. The flavors are straightforward yet harmonious, highlighting the interplay of citrus and spirit. Its mouthfeel is crisp and refreshing, with a bright finish that emphasizes agave and lime.",
     "base": "Tequila"
   },
   {
@@ -3569,7 +3762,7 @@
   },
   {
     "id": "vieux-carre",
-    "title": "Vieux Carr\u00e9",
+    "title": "Vieux Carré",
     "ingredients": [
       {
         "name": "Rye Whiskey",
@@ -3587,12 +3780,12 @@
         "unit": "ml"
       },
       {
-        "name": "Be\u0301ne\u0301dictine",
+        "name": "Bénédictine",
         "amount": 5.0,
         "unit": "ml"
       },
       {
-        "name": "Peychaud\u2019s Bitters",
+        "name": "Peychaud’s Bitters",
         "amount": 1.25,
         "unit": "ml"
       }
@@ -3605,7 +3798,7 @@
     ],
     "img": "vieux-carre.webp",
     "glass": "martini",
-    "description": "The Vieux Carr\u00e9 is rich and complex, with rye whiskey and cognac forming a bold spirit base. Sweet vermouth adds herbal sweetness, while B\u00e9n\u00e9dictine contributes spiced depth. Bitters enhance the structure with subtle aromatics, tying the flavors together. The mouthfeel is smooth and full-bodied, with a layered finish that balances sweetness, spice, and spirit-forward notes.",
+    "description": "The Vieux Carré is rich and complex, with rye whiskey and cognac forming a bold spirit base. Sweet vermouth adds herbal sweetness, while Bénédictine contributes spiced depth. Bitters enhance the structure with subtle aromatics, tying the flavors together. The mouthfeel is smooth and full-bodied, with a layered finish that balances sweetness, spice, and spirit-forward notes.",
     "base": "Whiskey"
   },
   {
@@ -3672,70 +3865,8 @@
     ],
     "img": "white-lady.webp",
     "glass": "coupe",
-    "description": "The White Lady is crisp and elegant, with gin\u2019s botanicals forming a clean and aromatic base. Triple sec adds orange sweetness, balancing the sharp acidity of lemon juice. The flavors are straightforward yet refined, creating a smooth and harmonious profile. Its mouthfeel is light and refreshing, with a finish that emphasizes citrus and herbal notes.",
+    "description": "The White Lady is crisp and elegant, with gin’s botanicals forming a clean and aromatic base. Triple sec adds orange sweetness, balancing the sharp acidity of lemon juice. The flavors are straightforward yet refined, creating a smooth and harmonious profile. Its mouthfeel is light and refreshing, with a finish that emphasizes citrus and herbal notes.",
     "base": "Gin"
-  },
-  {
-    "id": "zombie",
-    "title": "Zombie",
-    "ingredients": [
-      {
-        "name": "Jamaican dark rum",
-        "amount": 45.0,
-        "unit": "ml"
-      },
-      {
-        "name": "Gold Puerto Rican rum",
-        "amount": 45.0,
-        "unit": "ml"
-      },
-      {
-        "name": "Demerara Rum",
-        "amount": 30.0,
-        "unit": "ml"
-      },
-      {
-        "name": "Fresh Lime Juice",
-        "amount": 20.0,
-        "unit": "ml"
-      },
-      {
-        "name": "Falernum",
-        "amount": 15.0,
-        "unit": "ml"
-      },
-      {
-        "name": "Donn\u2019s Mix",
-        "amount": 15.0,
-        "unit": "ml"
-      },
-      {
-        "name": "Grenadine Syrup",
-        "amount": 5.0,
-        "unit": "ml"
-      },
-      {
-        "name": "Angostura Bitters",
-        "amount": 0.62,
-        "unit": "ml"
-      },
-      {
-        "name": "Pernod",
-        "amount": 0.3,
-        "unit": "ml"
-      }
-    ],
-    "garnish": "Place a sprig of fresh mint on top before serving",
-    "steps": [
-      "Add Jamaican dark rum, Puerto Rican rum, demerara rum, fresh lime juice, falernum, and Donn\u2019s Mix into a blender",
-      "Add cracked ice and blend briefly using short pulses until the mixture is smooth and chilled",
-      "Pour the blended drink into a tall glass",
-      "Fill the glass with extra crushed ice to create a full presentation"
-    ],
-    "img": "zombie.webp",
-    "glass": "hurricane",
-    "description": "The Zombie is rich and layered, with multiple rums creating a bold and complex foundation. Lime juice adds acidity, while falernum and grenadine contribute sweetness and spice. Donn\u2019s Mix and bitters enhance the depth with subtle aromatics, and Pernod introduces a faint herbal note. The mouthfeel is full-bodied and cooling, with crushed ice amplifying its refreshing character.",
-    "base": "Rum"
   },
   {
     "id": "white-russian",
@@ -3769,609 +3900,65 @@
     "base": "Vodka"
   },
   {
-    "id": "godfather",
-    "title": "Godfather",
+    "id": "zombie",
+    "title": "Zombie",
     "ingredients": [
       {
-        "name": "Scotch Whisky",
-        "amount": 35,
+        "name": "Jamaican dark rum",
+        "amount": 45.0,
         "unit": "ml"
       },
       {
-        "name": "Amaretto",
-        "amount": 35,
-        "unit": "ml"
-      }
-    ],
-    "garnish": "",
-    "steps": [
-      "Pour ingredients into an ice-filled old fashioned glass",
-      "Stir gently"
-    ],
-    "img": "godfather.webp",
-    "glass": "rocks",
-    "description": "The Godfather is a simple yet elegant duo cocktail. The smoky, woody notes of Scotch whisky are perfectly softened by the sweet, nutty almond flavor of Amaretto. It's a slow-sipping drink with a warm finish.",
-    "base": "Whiskey"
-  },
-  {
-    "id": "blue-lagoon",
-    "title": "Blue Lagoon",
-    "ingredients": [
-      {
-        "name": "Vodka",
-        "amount": 50,
+        "name": "Gold Puerto Rican rum",
+        "amount": 45.0,
         "unit": "ml"
       },
       {
-        "name": "Blue Curacao",
-        "amount": 20,
-        "unit": "ml"
-      },
-      {
-        "name": "Lemonade",
-        "amount": 100,
-        "unit": "ml"
-      }
-    ],
-    "garnish": "Garnish with a lemon slice and a cherry",
-    "steps": [
-      "Pour vodka and blue curacao into a highball glass filled with ice",
-      "Top with lemonade",
-      "Stir gently"
-    ],
-    "img": "blue-lagoon.webp",
-    "glass": "highball",
-    "description": "The Blue Lagoon is a vibrant and refreshing highball. Its striking blue color comes from Blue Curacao, which adds a sweet orange flavor. Paired with vodka and lemonade, it's a zesty, citrusy drink perfect for summer days.",
-    "base": "Vodka"
-  },
-  {
-    "id": "amaretto-sour",
-    "title": "Amaretto Sour",
-    "ingredients": [
-      {
-        "name": "Amaretto",
-        "amount": 45,
-        "unit": "ml"
-      },
-      {
-        "name": "Fresh Lemon Juice",
-        "amount": 30,
-        "unit": "ml"
-      },
-      {
-        "name": "Simple Syrup",
-        "amount": 15,
-        "unit": "ml"
-      },
-      {
-        "name": "Egg White",
-        "amount": 1,
-        "unit": "pieces"
-      }
-    ],
-    "garnish": "Garnish with a lemon wheel and maraschino cherry",
-    "steps": [
-      "Add amaretto, lemon juice, simple syrup, and egg white to a shaker",
-      "Dry shake (without ice) for 10 seconds",
-      "Add ice and shake vigorously until chilled",
-      "Strain into a rocks glass over fresh ice"
-    ],
-    "img": "amaretto-sour.webp",
-    "glass": "rocks",
-    "description": "The Amaretto Sour is a smooth and nutty cocktail with a perfect balance of sweet and sour. The almond flavor from amaretto is complemented by fresh lemon juice, while the egg white creates a silky foam top. It's rich yet refreshing, making it a crowd-pleasing classic.",
-    "base": "Amaretto"
-  },
-  {
-    "id": "aperol-spritz",
-    "title": "Aperol Spritz",
-    "ingredients": [
-      {
-        "name": "Aperol",
-        "amount": 60,
-        "unit": "ml"
-      },
-      {
-        "name": "Prosecco",
-        "amount": 90,
-        "unit": "ml"
-      },
-      {
-        "name": "Soda Water",
-        "amount": 30,
-        "unit": "ml"
-      }
-    ],
-    "garnish": "Garnish with an orange slice",
-    "steps": [
-      "Fill a wine glass with ice",
-      "Pour in Aperol and Prosecco",
-      "Top with a splash of soda water",
-      "Stir gently to combine"
-    ],
-    "img": "aperol-spritz.webp",
-    "glass": "wine",
-    "description": "The Aperol Spritz is a light, refreshing Italian aperitif with a beautiful orange hue. Aperol brings a bittersweet citrus flavor, balanced by the effervescence of Prosecco and soda water. It's perfect for warm afternoons and social gatherings.",
-    "base": "Aperol"
-  },
-  {
-    "id": "tom-collins",
-    "title": "Tom Collins",
-    "ingredients": [
-      {
-        "name": "Gin",
-        "amount": 45,
-        "unit": "ml"
-      },
-      {
-        "name": "Fresh Lemon Juice",
-        "amount": 30,
-        "unit": "ml"
-      },
-      {
-        "name": "Simple Syrup",
-        "amount": 15,
-        "unit": "ml"
-      },
-      {
-        "name": "Soda Water",
-        "amount": 60,
-        "unit": "ml"
-      }
-    ],
-    "garnish": "Garnish with a lemon wheel and maraschino cherry",
-    "steps": [
-      "Add gin, lemon juice, and simple syrup to a shaker with ice",
-      "Shake well until chilled",
-      "Strain into a Collins glass filled with ice",
-      "Top with soda water and stir gently"
-    ],
-    "img": "tom-collins.webp",
-    "glass": "highball",
-    "description": "The Tom Collins is a refreshing gin-based highball with a perfect balance of citrus and sweetness. The combination of gin, lemon, and soda water creates a light, effervescent drink that's both sophisticated and easy-drinking. It's a timeless classic for any occasion.",
-    "base": "Gin"
-  },
-  {
-    "id": "gimlet",
-    "title": "Gimlet",
-    "ingredients": [
-      {
-        "name": "Gin",
-        "amount": 60,
+        "name": "Demerara Rum",
+        "amount": 30.0,
         "unit": "ml"
       },
       {
         "name": "Fresh Lime Juice",
-        "amount": 15,
+        "amount": 20.0,
         "unit": "ml"
       },
       {
-        "name": "Simple Syrup",
-        "amount": 15,
-        "unit": "ml"
-      }
-    ],
-    "garnish": "Garnish with a lime wheel",
-    "steps": [
-      "Add gin, lime juice, and simple syrup to a shaker with ice",
-      "Shake vigorously until well chilled",
-      "Strain into a chilled coupe glass"
-    ],
-    "img": "gimlet.webp",
-    "glass": "coupe",
-    "description": "The Gimlet is a crisp and elegant cocktail that showcases the botanical complexity of gin. Fresh lime juice adds bright acidity, balanced by just enough sweetness. It's simple, sophisticated, and perfectly balanced - a true classic that never goes out of style.",
-    "base": "Gin"
-  },
-  {
-    "id": "paloma",
-    "title": "Paloma",
-    "ingredients": [
-      {
-        "name": "Tequila",
-        "amount": 50,
+        "name": "Falernum",
+        "amount": 15.0,
         "unit": "ml"
       },
       {
-        "name": "Fresh Lime Juice",
-        "amount": 15,
+        "name": "Donn’s Mix",
+        "amount": 15.0,
         "unit": "ml"
       },
       {
-        "name": "Grapefruit Soda",
-        "amount": 100,
-        "unit": "ml"
-      },
-      {
-        "name": "Salt",
-        "amount": 1,
-        "unit": "pinch"
-      }
-    ],
-    "garnish": "Garnish with a grapefruit wedge and salt rim",
-    "steps": [
-      "Rim a highball glass with salt",
-      "Fill the glass with ice",
-      "Add tequila and lime juice",
-      "Top with grapefruit soda and stir gently"
-    ],
-    "img": "paloma.webp",
-    "glass": "highball",
-    "description": "The Paloma is Mexico's most beloved tequila cocktail. It combines tequila with refreshing grapefruit soda and lime, creating a drink that's both tart and slightly sweet. The salt rim enhances all the flavors, making it incredibly refreshing and easy to drink.",
-    "base": "Tequila"
-  },
-  {
-    "id": "moscow-mule",
-    "title": "Moscow Mule",
-    "ingredients": [
-      {
-        "name": "Vodka",
-        "amount": 45,
-        "unit": "ml"
-      },
-      {
-        "name": "Fresh Lime Juice",
-        "amount": 15,
-        "unit": "ml"
-      },
-      {
-        "name": "Ginger Beer",
-        "amount": 120,
-        "unit": "ml"
-      }
-    ],
-    "garnish": "Garnish with lime wedge and fresh mint",
-    "steps": [
-      "Fill a copper mug or highball glass with ice",
-      "Add vodka and lime juice",
-      "Top with ginger beer",
-      "Stir gently to combine"
-    ],
-    "img": "moscow-mule.webp",
-    "glass": "copper mug",
-    "description": "The Moscow Mule is a refreshing vodka cocktail with a spicy ginger kick. The combination of vodka, lime, and ginger beer creates a perfectly balanced drink that's both zesty and invigorating. Traditionally served in a copper mug, it's a modern classic that's stood the test of time.",
-    "base": "Vodka"
-  },
-  {
-    "id": "french-connection",
-    "title": "French Connection",
-    "ingredients": [
-      {
-        "name": "Cognac",
-        "amount": 35,
-        "unit": "ml"
-      },
-      {
-        "name": "Amaretto",
-        "amount": 35,
-        "unit": "ml"
-      }
-    ],
-    "garnish": "",
-    "steps": [
-      "Pour cognac and amaretto into a rocks glass over ice",
-      "Stir gently to combine"
-    ],
-    "img": "french-connection.webp",
-    "glass": "rocks",
-    "description": "The French Connection is a simple yet sophisticated two-ingredient cocktail. Cognac provides warmth and complexity, while amaretto adds a sweet almond flavor. Together, they create a smooth, rich drink that's perfect as an after-dinner sipper.",
-    "base": "Cognac"
-  },
-  {
-    "id": "pisco-sour",
-    "title": "Pisco Sour",
-    "ingredients": [
-      {
-        "name": "Pisco",
-        "amount": 60,
-        "unit": "ml"
-      },
-      {
-        "name": "Fresh Lime Juice",
-        "amount": 30,
-        "unit": "ml"
-      },
-      {
-        "name": "Simple Syrup",
-        "amount": 20,
-        "unit": "ml"
-      },
-      {
-        "name": "Egg White",
-        "amount": 1,
-        "unit": "pieces"
-      },
-      {
-        "name": "Angostura Bitters",
-        "amount": 3,
-        "unit": "dashes"
-      }
-    ],
-    "garnish": "Top with a few dashes of Angostura bitters",
-    "steps": [
-      "Add pisco, lime juice, simple syrup, and egg white to a shaker",
-      "Dry shake (without ice) vigorously for 10 seconds",
-      "Add ice and shake again until well chilled",
-      "Strain into a chilled coupe glass"
-    ],
-    "img": "pisco-sour.webp",
-    "glass": "coupe",
-    "description": "The Pisco Sour is Peru's national cocktail, featuring the grape brandy pisco. It's tart, frothy, and perfectly balanced with a silky texture from the egg white. The Angostura bitters on top add aromatic complexity to this South American classic.",
-    "base": "Pisco"
-  },
-  {
-    "id": "mint-julep",
-    "title": "Mint Julep",
-    "ingredients": [
-      {
-        "name": "Bourbon",
-        "amount": 60,
-        "unit": "ml"
-      },
-      {
-        "name": "Simple Syrup",
-        "amount": 10,
-        "unit": "ml"
-      },
-      {
-        "name": "Fresh Mint Leaves",
-        "amount": 8,
-        "unit": "pieces"
-      }
-    ],
-    "garnish": "Garnish with a mint sprig",
-    "steps": [
-      "Add mint leaves and simple syrup to a julep cup or rocks glass",
-      "Gently muddle the mint",
-      "Fill the glass with crushed ice",
-      "Pour bourbon over the ice",
-      "Stir until the glass frosts",
-      "Top with more crushed ice"
-    ],
-    "img": "mint-julep.webp",
-    "glass": "julep cup",
-    "description": "The Mint Julep is a Southern classic and the official drink of the Kentucky Derby. It combines bourbon with fresh mint and crushed ice, creating a refreshing and aromatic cocktail. The drink is as much about the ritual and presentation as it is about the taste.",
-    "base": "Bourbon"
-  },
-  {
-    "id": "sazerac",
-    "title": "Sazerac",
-    "ingredients": [
-      {
-        "name": "Rye Whiskey",
-        "amount": 50,
-        "unit": "ml"
-      },
-      {
-        "name": "Simple Syrup",
-        "amount": 5,
-        "unit": "ml"
-      },
-      {
-        "name": "Peychaud's Bitters",
-        "amount": 3,
-        "unit": "dashes"
-      },
-      {
-        "name": "Absinthe",
-        "amount": 5,
-        "unit": "ml"
-      }
-    ],
-    "garnish": "Garnish with a lemon peel",
-    "steps": [
-      "Rinse a chilled rocks glass with absinthe and discard excess",
-      "In a mixing glass, combine rye, simple syrup, and bitters with ice",
-      "Stir until well chilled",
-      "Strain into the prepared glass",
-      "Express lemon peel over the drink and discard"
-    ],
-    "img": "sazerac.webp",
-    "glass": "rocks",
-    "description": "The Sazerac is New Orleans' signature cocktail, dating back to the 1800s. It's a complex, spirit-forward drink with rye whiskey at its core, enhanced by Peychaud's bitters and a hint of absinthe. The result is a sophisticated, aromatic cocktail with layers of flavor.",
-    "base": "Whiskey"
-  },
-  {
-    "id": "whiskey-sour",
-    "title": "Whiskey Sour",
-    "ingredients": [
-      {
-        "name": "Bourbon",
-        "amount": 45,
-        "unit": "ml"
-      },
-      {
-        "name": "Fresh Lemon Juice",
-        "amount": 30,
-        "unit": "ml"
-      },
-      {
-        "name": "Simple Syrup",
-        "amount": 15,
-        "unit": "ml"
-      },
-      {
-        "name": "Egg White",
-        "amount": 1,
-        "unit": "pieces"
-      }
-    ],
-    "garnish": "Garnish with a lemon wheel and maraschino cherry",
-    "steps": [
-      "Add bourbon, lemon juice, simple syrup, and egg white to a shaker",
-      "Dry shake (without ice) for 10 seconds",
-      "Add ice and shake vigorously until chilled",
-      "Strain into a rocks glass over fresh ice"
-    ],
-    "img": "whiskey-sour.webp",
-    "glass": "rocks",
-    "description": "The Whiskey Sour is a timeless classic that perfectly balances bourbon's warmth with bright lemon acidity. The egg white creates a silky foam top, adding texture and visual appeal. It's a versatile cocktail that showcases the spirit while remaining refreshing and approachable.",
-    "base": "Bourbon"
-  },
-  {
-    "id": "tequila-sunrise",
-    "title": "Tequila Sunrise",
-    "ingredients": [
-      {
-        "name": "Tequila",
-        "amount": 45,
-        "unit": "ml"
-      },
-      {
-        "name": "Fresh Orange Juice",
-        "amount": 90,
-        "unit": "ml"
-      },
-      {
-        "name": "Grenadine",
-        "amount": 15,
-        "unit": "ml"
-      }
-    ],
-    "garnish": "Garnish with an orange slice and maraschino cherry",
-    "steps": [
-      "Fill a highball glass with ice",
-      "Pour in tequila and orange juice",
-      "Stir gently to combine",
-      "Slowly pour grenadine down the side of the glass to create a sunrise effect"
-    ],
-    "img": "tequila-sunrise.webp",
-    "glass": "highball",
-    "description": "The Tequila Sunrise is a visually stunning cocktail that lives up to its name. The grenadine sinks to create a beautiful gradient from red to orange, mimicking a sunrise. It's sweet, fruity, and easy to drink, making it a popular choice for brunches and poolside sipping.",
-    "base": "Tequila"
-  },
-  {
-    "id": "singapore-sling",
-    "title": "Singapore Sling",
-    "ingredients": [
-      {
-        "name": "Gin",
-        "amount": 30,
-        "unit": "ml"
-      },
-      {
-        "name": "Cherry Liqueur",
-        "amount": 15,
-        "unit": "ml"
-      },
-      {
-        "name": "Cointreau",
-        "amount": 7.5,
-        "unit": "ml"
-      },
-      {
-        "name": "Benedictine",
-        "amount": 7.5,
-        "unit": "ml"
-      },
-      {
-        "name": "Fresh Lime Juice",
-        "amount": 15,
-        "unit": "ml"
-      },
-      {
-        "name": "Pineapple Juice",
-        "amount": 120,
-        "unit": "ml"
-      },
-      {
-        "name": "Grenadine",
-        "amount": 10,
+        "name": "Grenadine Syrup",
+        "amount": 5.0,
         "unit": "ml"
       },
       {
         "name": "Angostura Bitters",
-        "amount": 1,
-        "unit": "dash"
+        "amount": 0.62,
+        "unit": "ml"
+      },
+      {
+        "name": "Pernod",
+        "amount": 0.3,
+        "unit": "ml"
       }
     ],
-    "garnish": "Garnish with a pineapple slice and maraschino cherry",
+    "garnish": "Place a sprig of fresh mint on top before serving",
     "steps": [
-      "Add all ingredients except pineapple juice to a shaker with ice",
-      "Shake well until chilled",
-      "Strain into a hurricane glass filled with ice",
-      "Top with pineapple juice",
-      "Stir gently to combine"
+      "Add Jamaican dark rum, Puerto Rican rum, demerara rum, fresh lime juice, falernum, and Donn’s Mix into a blender",
+      "Add cracked ice and blend briefly using short pulses until the mixture is smooth and chilled",
+      "Pour the blended drink into a tall glass",
+      "Fill the glass with extra crushed ice to create a full presentation"
     ],
-    "img": "singapore-sling.webp",
+    "img": "zombie.webp",
     "glass": "hurricane",
-    "description": "The Singapore Sling is a complex tropical cocktail created at Singapore's Raffles Hotel. It combines gin with multiple liqueurs, citrus, and pineapple juice, creating a fruity yet sophisticated drink. Despite its sweetness, the botanical and herbal notes keep it balanced and interesting.",
-    "base": "Gin"
-  },
-  {
-    "id": "sherry-cobbler",
-    "title": "Sherry Cobbler",
-    "ingredients": [
-      {
-        "name": "Amontillado Sherry",
-        "amount": 90,
-        "unit": "ml"
-      },
-      {
-        "name": "Simple Syrup",
-        "amount": 10,
-        "unit": "ml"
-      },
-      {
-        "name": "Fresh Orange Slices",
-        "amount": 2,
-        "unit": "pieces"
-      }
-    ],
-    "garnish": "Garnish with fresh berries and mint",
-    "steps": [
-      "Add sherry, simple syrup, and orange slices to a shaker",
-      "Shake with ice until well chilled",
-      "Strain into a wine glass filled with crushed ice",
-      "Top with more crushed ice"
-    ],
-    "img": "sherry-cobbler.webp",
-    "glass": "wine",
-    "description": "The Sherry Cobbler is a refreshing 19th-century classic that helped popularize the use of straws and crushed ice. The nutty, complex flavors of sherry are enhanced by fresh orange and a touch of sweetness. It's an elegant, low-ABV option perfect for afternoon sipping.",
-    "base": "Sherry"
-  },
-  {
-    "id": "vieux-carre",
-    "title": "Vieux Carr\u00e9",
-    "ingredients": [
-      {
-        "name": "Rye Whiskey",
-        "amount": 30,
-        "unit": "ml"
-      },
-      {
-        "name": "Cognac",
-        "amount": 30,
-        "unit": "ml"
-      },
-      {
-        "name": "Sweet Vermouth",
-        "amount": 30,
-        "unit": "ml"
-      },
-      {
-        "name": "Benedictine",
-        "amount": 5,
-        "unit": "ml"
-      },
-      {
-        "name": "Peychaud's Bitters",
-        "amount": 2,
-        "unit": "dashes"
-      },
-      {
-        "name": "Angostura Bitters",
-        "amount": 2,
-        "unit": "dashes"
-      }
-    ],
-    "garnish": "Garnish with a lemon twist",
-    "steps": [
-      "Add all ingredients to a mixing glass with ice",
-      "Stir until well chilled",
-      "Strain into a rocks glass over a large ice cube"
-    ],
-    "img": "vieux-carre.webp",
-    "glass": "rocks",
-    "description": "The Vieux Carr\u00e9 is a sophisticated New Orleans cocktail that combines rye whiskey and cognac with sweet vermouth and Benedictine. The dual bitters add complexity, creating a rich, layered drink that's both spirit-forward and nuanced. It's a perfect choice for those who appreciate complex, contemplative cocktails.",
-    "base": "Whiskey"
+    "description": "The Zombie is rich and layered, with multiple rums creating a bold and complex foundation. Lime juice adds acidity, while falernum and grenadine contribute sweetness and spice. Donn’s Mix and bitters enhance the depth with subtle aromatics, and Pernod introduces a faint herbal note. The mouthfeel is full-bodied and cooling, with crushed ice amplifying its refreshing character.",
+    "base": "Rum"
   }
 ]
